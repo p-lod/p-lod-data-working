@@ -1,1227 +1,1254 @@
-@prefix ns1: <http://p-lod.umasscreate.net/vocabulary#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://p-lod.umasscreate.net/vocabulary#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:060de0be-2e3a-4a55-9f9c-c398897342e6 a ns1:Background,
-        ns1:artwork-component,
+ns2:01484d0d-3c17-4299-8b9b-bafe0e751f54 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Blue ;
-    ns2:identifier "060de0be-2e3a-4a55-9f9c-c398897342e6" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns2:depicts ns2:Tree ;
+    ns1:identifier "01484d0d-3c17-4299-8b9b-bafe0e751f54" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:0962144c-e9b6-424f-94be-0a735f74f66d a ns1:Border,
-        ns1:artwork-component,
+ns2:0665f776-71f0-4987-8d4a-9324c6a687a1 a ns2:Border,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "0962144c-e9b6-424f-94be-0a735f74f66d" ;
-    ns2:isPartOf ns1:898b6a26-2906-46e6-9041-997c8492d6bf .
+    ns2:has-color ns2:Red ;
+    ns1:identifier "0665f776-71f0-4987-8d4a-9324c6a687a1" ;
+    ns1:isPartOf ns2:76b48cf8-a88f-4dfd-85fd-1018b014ef60 .
 
-ns1:0acf45cc-0a52-4929-bceb-d8a53cfe897c a ns1:artwork-component,
+ns2:08e2ae9c-9a11-4b56-8b5e-4af10961377a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Crown ;
-    ns1:has-action ns1:Wearing ;
-    ns1:has-color ns1:Gold ;
-    ns2:identifier "0acf45cc-0a52-4929-bceb-d8a53cfe897c" ;
-    ns2:isPartOf ns1:756ab1ee-df80-490c-830f-6713fb130d25 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "08e2ae9c-9a11-4b56-8b5e-4af10961377a" ;
+    ns1:isPartOf ns2:3cc69b33-56fd-4cd4-834e-ac4278faf76d .
 
-ns1:0d8602e8-6fe8-459e-9d78-20b65e77eda7 a ns1:artwork-component,
+ns2:090ae90a-deef-47b4-bd61-6b7da3429f39 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Crown ;
-    ns1:has-action ns1:Wearing ;
-    ns1:has-color ns1:Gold ;
-    ns2:identifier "0d8602e8-6fe8-459e-9d78-20b65e77eda7" ;
-    ns2:isPartOf ns1:62bf77f9-7330-4ca3-8d85-25bcdc04201e .
+    ns2:depicts ns2:Garland ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "090ae90a-deef-47b4-bd61-6b7da3429f39" ;
+    ns1:isPartOf ns2:4116152a-5337-4626-8742-a059c880d461 .
 
-ns1:13e9568e-abc9-405a-9a4e-4dbebe6e8e9d a ns1:artwork-component,
+ns2:098f4ee0-bc13-41ee-898c-a3bf20d9cdf5 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tree ;
-    ns2:identifier "13e9568e-abc9-405a-9a4e-4dbebe6e8e9d" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns2:depicts ns2:Pedestal ;
+    ns1:identifier "098f4ee0-bc13-41ee-898c-a3bf20d9cdf5" ;
+    ns1:isPartOf ns2:ab4bd4b7-4e5b-45b1-8156-20e660fa4e33 .
 
-ns1:1517a35e-82ae-463e-8af9-d346c665a7dc a ns1:Border,
-        ns1:artwork-component,
+ns2:0a87bce2-937d-4cd1-b07e-35d751402e9b a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "1517a35e-82ae-463e-8af9-d346c665a7dc" ;
-    ns2:isPartOf ns1:fb88a6e9-a7f6-48e3-8f22-ec07fce288e5 .
+    ns2:depicts ns2:Dionysius ;
+    ns2:has-action ns2:Reclining ;
+    ns1:identifier "0a87bce2-937d-4cd1-b07e-35d751402e9b" ;
+    ns1:isPartOf ns2:a4d64a3f-2d74-4561-852f-fa431cd61310 .
 
-ns1:1585ca34-76fe-427d-b48a-6f87a8709235 a ns1:artwork-component,
+ns2:0c3eae60-af13-40d2-abde-9a3a3f7b1b98 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Ankh ;
-    ns2:identifier "1585ca34-76fe-427d-b48a-6f87a8709235" ;
-    ns2:isPartOf ns1:6829b23e-5766-4610-964f-ae85b17ddab0 .
+    ns2:depicts ns2:Chair ;
+    ns1:identifier "0c3eae60-af13-40d2-abde-9a3a3f7b1b98" ;
+    ns1:isPartOf ns2:144b6358-65e7-4ae6-aa6d-7f47b87ccb84 .
 
-ns1:19064fa3-6e09-4b14-a73f-2f73ffa3247f a ns1:artwork-component,
+ns2:104f72c3-3418-4b49-b6b8-667c2dd0cd88 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Ankh ;
-    ns2:identifier "19064fa3-6e09-4b14-a73f-2f73ffa3247f" ;
-    ns2:isPartOf ns1:017420d8-8ede-4e7f-8891-75a1ba3a228f .
+    ns2:depicts ns2:Magpie ;
+    ns2:has-action ns2:Perched ;
+    ns1:identifier "104f72c3-3418-4b49-b6b8-667c2dd0cd88" ;
+    ns1:isPartOf ns2:e5f4d310-c189-484d-a8f6-4ad02a48b2a4 .
 
-ns1:1ace266e-9724-4cf3-8f46-e40bab199b0d a ns1:artwork-component,
+ns2:14ee6068-66fd-484e-9176-e2e771b9932b a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Dionysius ;
-    ns1:has-action ns1:Reclining ;
-    ns2:identifier "1ace266e-9724-4cf3-8f46-e40bab199b0d" ;
-    ns2:isPartOf ns1:62bf77f9-7330-4ca3-8d85-25bcdc04201e .
+    ns2:depicts ns2:Plate ;
+    ns1:identifier "14ee6068-66fd-484e-9176-e2e771b9932b" ;
+    ns1:isPartOf ns2:53473c09-dacf-40e9-ba1d-01230cf4716d .
 
-ns1:2d62c007-39a4-44b0-954e-2be0aad11325 a ns1:artwork-component,
+ns2:17046546-dee4-46c2-8e9f-4132aaa81ef4 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "2d62c007-39a4-44b0-954e-2be0aad11325" ;
-    ns2:isPartOf ns1:b763aff6-9820-417a-8b16-3d887013cb33 .
+    ns2:depicts ns2:Column ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "17046546-dee4-46c2-8e9f-4132aaa81ef4" ;
+    ns1:isPartOf ns2:811abf58-1265-4973-b020-477a4ba076e5 .
 
-ns1:2eb9f456-a166-46f6-85b6-29a1b87d23c6 a ns1:artwork-component,
+ns2:17d48b9c-965d-465e-9061-2c4cd94778ac a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Thyrsus ;
-    ns1:has-action ns1:Holding ;
-    ns2:identifier "2eb9f456-a166-46f6-85b6-29a1b87d23c6" ;
-    ns2:isPartOf ns1:756ab1ee-df80-490c-830f-6713fb130d25 .
+    ns2:depicts ns2:Figure ;
+    ns2:has-action ns2:Sitting ;
+    ns1:identifier "17d48b9c-965d-465e-9061-2c4cd94778ac" ;
+    ns1:isPartOf ns2:144b6358-65e7-4ae6-aa6d-7f47b87ccb84 .
 
-ns1:2f8390c5-02d2-4371-ab9b-b4382277530c a ns1:artwork-component,
+ns2:1a8503db-6fb5-4e36-aba7-c089d00e0969 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "2f8390c5-02d2-4371-ab9b-b4382277530c" ;
-    ns2:isPartOf ns1:d8f75119-2968-4003-91e4-3d2252581ff7 .
+    ns2:depicts ns2:Thyrsus ;
+    ns2:has-action ns2:Holding ;
+    ns1:identifier "1a8503db-6fb5-4e36-aba7-c089d00e0969" ;
+    ns1:isPartOf ns2:a4d64a3f-2d74-4561-852f-fa431cd61310 .
 
-ns1:3138c6df-abc2-451b-9786-fe02e2f20565 a ns1:artwork-component,
+ns2:1aedb5ff-9667-46f3-881f-8df051ae6d1d a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Dove ;
-    ns1:has-action ns1:Flying ;
-    ns2:identifier "3138c6df-abc2-451b-9786-fe02e2f20565" ;
-    ns2:isPartOf ns1:cf33fc11-a449-4576-8c76-bcac530742fb .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:Red ;
+    ns1:identifier "1aedb5ff-9667-46f3-881f-8df051ae6d1d" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:328bb465-7b57-4692-a182-8ba9ffa27dbc a ns1:artwork-component,
+ns2:214db05a-7862-4c45-8ce1-a2768a9efd4c a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "328bb465-7b57-4692-a182-8ba9ffa27dbc" ;
-    ns2:isPartOf ns1:339e8222-cd53-44b8-9eed-1682cdc4a54e .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "214db05a-7862-4c45-8ce1-a2768a9efd4c" ;
+    ns1:isPartOf ns2:60505995-1c79-4d5e-a69e-25095fd27fbf .
 
-ns1:33d7121b-2290-4fc6-aff8-33bf6e76916d a ns1:artwork-component,
+ns2:245c0e45-4a5d-4aac-8358-90e2754f1cca a ns2:Border,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Censor ;
-    ns2:identifier "33d7121b-2290-4fc6-aff8-33bf6e76916d" ;
-    ns2:isPartOf ns1:591eaa0f-c0da-4296-b6eb-f1dd1e2d7380 .
+    ns2:has-color ns2:Red ;
+    ns1:identifier "245c0e45-4a5d-4aac-8358-90e2754f1cca" ;
+    ns1:isPartOf ns2:c6f765d7-38f0-4130-8eff-cefece2b8f4a .
 
-ns1:36bca1a7-ec63-4573-b5ca-037c8a4ccfb0 a ns1:artwork-component,
+ns2:276f17ab-91c6-4a42-a5e3-1aae5c1d17b0 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Pinax ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "36bca1a7-ec63-4573-b5ca-037c8a4ccfb0" ;
-    ns2:isPartOf ns1:43118a5f-5a81-4959-b60c-257c6a5d2913 .
+    ns2:depicts ns2:Thyrsus ;
+    ns2:has-action ns2:Holding ;
+    ns1:identifier "276f17ab-91c6-4a42-a5e3-1aae5c1d17b0" ;
+    ns1:isPartOf ns2:76102429-e048-45c0-a381-f33fa255b5ed .
 
-ns1:3d18fea9-ee0a-42b6-9544-25a9a835f49e a ns1:artwork-component,
+ns2:27d30588-09f1-45b9-91c3-608b82bcf6c8 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "3d18fea9-ee0a-42b6-9544-25a9a835f49e" ;
-    ns2:isPartOf ns1:b72a829c-f86a-4ec4-a2b4-6fe9edc28d20 .
+    ns2:depicts ns2:Geometric ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "27d30588-09f1-45b9-91c3-608b82bcf6c8" ;
+    ns1:isPartOf ns2:ddc72476-e359-4594-b391-d3c063065a14 .
 
-ns1:4204c67e-b059-4948-afed-533c4d9b182e a ns1:artwork-component,
+ns2:2aac110b-4c8c-4aac-a069-8de609b8abb2 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Fern ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "4204c67e-b059-4948-afed-533c4d9b182e" ;
-    ns2:isPartOf ns1:a824c7cf-398d-433f-bdd7-386657b56703 .
+    ns2:depicts ns2:Acanthus ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "2aac110b-4c8c-4aac-a069-8de609b8abb2" ;
+    ns1:isPartOf ns2:0fcfde58-9949-4c1a-a12a-3447358352d0 .
 
-ns1:426b1a84-279f-4ca1-84eb-414c23a2f746 a ns1:artwork-component,
+ns2:30296e03-7c5f-4b0f-a3d2-9dcc5a0f879a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Statue ;
-    ns1:has-action ns1:Standing ;
-    ns2:identifier "426b1a84-279f-4ca1-84eb-414c23a2f746" ;
-    ns2:isPartOf ns1:65b2f70d-7597-4e43-92ed-a906721f8bd4 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "30296e03-7c5f-4b0f-a3d2-9dcc5a0f879a" ;
+    ns1:isPartOf ns2:f6fcf09d-d3eb-4142-ae0f-ac64d8aba0c9 .
 
-ns1:464ebeed-4b69-4bd8-930d-6efa7eaa5ec0 a ns1:Border,
-        ns1:artwork-component,
+ns2:3509cc28-02a9-4108-9bcd-d1c26121c11c a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "464ebeed-4b69-4bd8-930d-6efa7eaa5ec0" ;
-    ns2:isPartOf ns1:462bfb9d-d535-4b9e-be41-88ccf9814c67 .
+    ns2:depicts ns2:Tree ;
+    ns1:identifier "3509cc28-02a9-4108-9bcd-d1c26121c11c" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:4a13010c-5330-4c63-b758-950cf42e2ba0 a ns1:artwork-component,
+ns2:378f8c40-b953-477b-a221-85d963495aad a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Column ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "4a13010c-5330-4c63-b758-950cf42e2ba0" ;
-    ns2:isPartOf ns1:c3164529-031d-43ea-9d84-c8d4a1bb701e .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "378f8c40-b953-477b-a221-85d963495aad" ;
+    ns1:isPartOf ns2:0cbb7883-4284-4ccc-ab2c-a1bedc339407 .
 
-ns1:4b291d7f-b6fe-4583-82ee-8f4aabdbda55 a ns1:artwork-component,
+ns2:3a105610-3acc-42f9-a43e-19ce62cae994 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "4b291d7f-b6fe-4583-82ee-8f4aabdbda55" ;
-    ns2:isPartOf ns1:f9bcee20-311f-4efe-9614-bc3a7802740f .
+    ns2:depicts ns2:Pinax ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "3a105610-3acc-42f9-a43e-19ce62cae994" ;
+    ns1:isPartOf ns2:9ee60ef1-90ea-4f05-a564-d7e5109c9b4a .
 
-ns1:4c6d9ba6-4cc9-4580-99d2-a234f30ef0cb a ns1:artwork-component,
+ns2:3e1757ca-eeed-49ba-90fe-7d8c14efa717 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Pergola ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "4c6d9ba6-4cc9-4580-99d2-a234f30ef0cb" ;
-    ns2:isPartOf ns1:7a2afa50-4565-4ef3-9730-626b7fec5e1e .
+    ns2:depicts ns2:Pedestal ;
+    ns1:identifier "3e1757ca-eeed-49ba-90fe-7d8c14efa717" ;
+    ns1:isPartOf ns2:24b144bd-4ba3-4e1f-a237-2e0bb23df856 .
 
-ns1:4d91b1bc-053d-404b-9e66-e3ceefadc508 a ns1:artwork-component,
+ns2:45a70a72-a267-428d-a7d3-5bbda3a6e9f6 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "4d91b1bc-053d-404b-9e66-e3ceefadc508" ;
-    ns2:isPartOf ns1:d8f75119-2968-4003-91e4-3d2252581ff7 .
+    ns2:depicts ns2:Crown ;
+    ns2:has-action ns2:Wearing ;
+    ns2:has-color ns2:Gold ;
+    ns1:identifier "45a70a72-a267-428d-a7d3-5bbda3a6e9f6" ;
+    ns1:isPartOf ns2:76102429-e048-45c0-a381-f33fa255b5ed .
 
-ns1:527c9b16-97ce-46a6-a75d-f3ee7d2dc742 a ns1:artwork-component,
+ns2:46422847-4ab7-412a-86a2-c190105bf7b4 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "527c9b16-97ce-46a6-a75d-f3ee7d2dc742" ;
-    ns2:isPartOf ns1:741bedf9-1f72-4516-a119-079872b0a7a5 .
+    ns2:depicts ns2:Fern ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "46422847-4ab7-412a-86a2-c190105bf7b4" ;
+    ns1:isPartOf ns2:823128bc-9642-4ade-bfc9-901634df4e40 .
 
-ns1:550b1bb8-b0b5-41e6-92d3-a59687b376d4 a ns1:artwork-component,
+ns2:47e2a556-afe6-4dfb-93b0-fcffc15ca86f a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tree ;
-    ns2:identifier "550b1bb8-b0b5-41e6-92d3-a59687b376d4" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns2:depicts ns2:Bird ;
+    ns2:has-action ns2:Perched ;
+    ns1:identifier "47e2a556-afe6-4dfb-93b0-fcffc15ca86f" ;
+    ns1:isPartOf ns2:1fce8799-7e29-4769-9d63-c3e8db26b4a4 .
 
-ns1:56098e37-3f34-43f6-8d63-70c51a150c74 a ns1:artwork-component,
+ns2:4d72862f-5054-42ab-8160-192c7ac6d72a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Garland ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "56098e37-3f34-43f6-8d63-70c51a150c74" ;
-    ns2:isPartOf ns1:bc68d906-75e2-433b-9147-ce7b4f236bf0 .
+    ns2:depicts ns2:Ankh ;
+    ns1:identifier "4d72862f-5054-42ab-8160-192c7ac6d72a" ;
+    ns1:isPartOf ns2:53473c09-dacf-40e9-ba1d-01230cf4716d .
 
-ns1:58b4dd2a-c155-4f4c-9b1f-31cac59680ea a ns1:artwork-component,
+ns2:4e7823f7-9d60-4d49-a026-4bd113d4d34f a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Stylopinakion ;
-    ns2:identifier "58b4dd2a-c155-4f4c-9b1f-31cac59680ea" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns2:depicts ns2:Garland ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "4e7823f7-9d60-4d49-a026-4bd113d4d34f" ;
+    ns1:isPartOf ns2:b6e9f7bb-74ac-4462-89d5-d0d853d4ebf3 .
 
-ns1:5be27224-72d6-49ab-8311-5f75672425ba a ns1:artwork-component,
+ns2:524b48c2-0a4b-4107-b0e9-0bee9f7a8e84 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "5be27224-72d6-49ab-8311-5f75672425ba" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns2:depicts ns2:Stylopinakion ;
+    ns1:identifier "524b48c2-0a4b-4107-b0e9-0bee9f7a8e84" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:5e28dc56-f686-4aff-80d1-743b0caec5b4 a ns1:artwork-component,
+ns2:54e4a04b-8577-4e0c-8622-4b0dfb6fed3a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Thyrsus ;
-    ns1:has-action ns1:Holding ;
-    ns2:identifier "5e28dc56-f686-4aff-80d1-743b0caec5b4" ;
-    ns2:isPartOf ns1:62bf77f9-7330-4ca3-8d85-25bcdc04201e .
+    ns2:depicts ns2:Diamond ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "54e4a04b-8577-4e0c-8622-4b0dfb6fed3a" ;
+    ns1:isPartOf ns2:d33f9c00-122b-48f7-b3b6-efcb0da10a0e .
 
-ns1:624fb462-9c57-4419-a035-e955d9ed8f28 a ns1:artwork-component,
+ns2:59688a9a-ad0e-4b23-807c-bb72f24721f9 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tree ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "624fb462-9c57-4419-a035-e955d9ed8f28" ;
-    ns2:isPartOf ns1:7fe95a0e-94cf-42c6-8e4e-1e3082ee9a5e .
+    ns2:depicts ns2:Mask ;
+    ns2:has-action ns2:Hanging ;
+    ns1:identifier "59688a9a-ad0e-4b23-807c-bb72f24721f9" ;
+    ns1:isPartOf ns2:b5720a7c-9b13-407e-b5db-168b109bfe94 .
 
-ns1:628cde32-c257-4c26-96ba-1d3e7f169dc2 a ns1:artwork-component,
+ns2:5b2587c9-4adc-4757-8c9e-4bc864a794aa a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "628cde32-c257-4c26-96ba-1d3e7f169dc2" ;
-    ns2:isPartOf ns1:08d519ce-b3b2-4a86-a858-2e1cd7ed0552 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "5b2587c9-4adc-4757-8c9e-4bc864a794aa" ;
+    ns1:isPartOf ns2:4a2e2501-3362-4dd8-9e6f-8ed4368eecfa .
 
-ns1:691e93b1-faaf-4e36-9d8e-99faf2ee6a26 a ns1:artwork-component,
+ns2:5f53f68b-2570-4768-85a1-6d867e228cf4 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Crow ;
-    ns1:has-action ns1:Flying ;
-    ns2:identifier "691e93b1-faaf-4e36-9d8e-99faf2ee6a26" ;
-    ns2:isPartOf ns1:5c95cb42-7e74-4813-9368-1f9d0b628f41 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "5f53f68b-2570-4768-85a1-6d867e228cf4" ;
+    ns1:isPartOf ns2:8e33f170-55b5-42ab-940e-628cffe9b78e .
 
-ns1:697dbd84-e7e8-4cb7-9382-6890197d95ed a ns1:artwork-component,
+ns2:5ff00df9-522c-4638-a195-e3c1b54eba7f a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Censor ;
-    ns2:identifier "697dbd84-e7e8-4cb7-9382-6890197d95ed" ;
-    ns2:isPartOf ns1:853d88df-5106-471f-b9c9-37e6df61a283 .
+    ns2:depicts ns2:Stylopinakion ;
+    ns1:identifier "5ff00df9-522c-4638-a195-e3c1b54eba7f" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:69a23831-886e-4dbc-ae87-ed6aa90666bf a ns1:artwork-component,
+ns2:609a563e-81d5-46e7-97af-ce09bbe61fdb a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Figure ;
-    ns1:has-action ns1:Sitting ;
-    ns2:identifier "69a23831-886e-4dbc-ae87-ed6aa90666bf" ;
-    ns2:isPartOf ns1:18b898ed-ed12-40ce-981e-d6e7ed69d65c .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "609a563e-81d5-46e7-97af-ce09bbe61fdb" ;
+    ns1:isPartOf ns2:90b6d07a-6153-44bc-8f5b-79d852fa4b22 .
 
-ns1:6d8b4f0c-18e9-46a1-be6c-bb67550fc1a4 a ns1:artwork-component,
+ns2:652d4b73-ef6e-47b1-aad7-9acc8c86a342 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Geometric ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "6d8b4f0c-18e9-46a1-be6c-bb67550fc1a4" ;
-    ns2:isPartOf ns1:6b8ac78c-67dd-4af2-b59a-e64c1130602b .
+    ns2:depicts ns2:Figure ;
+    ns2:has-action ns2:Sitting ;
+    ns1:identifier "652d4b73-ef6e-47b1-aad7-9acc8c86a342" ;
+    ns1:isPartOf ns2:d252225c-6601-4aeb-a829-71cf7edf8ac9 .
 
-ns1:6dac3abb-f107-4ff4-8d8b-cab3c3c2a9d1 a ns1:artwork-component,
+ns2:678fe544-1f89-49c9-9902-f6b33b3404b5 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Chair ;
-    ns2:identifier "6dac3abb-f107-4ff4-8d8b-cab3c3c2a9d1" ;
-    ns2:isPartOf ns1:4bec415e-3dfc-46fc-ae27-a25dac742b66 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "678fe544-1f89-49c9-9902-f6b33b3404b5" ;
+    ns1:isPartOf ns2:ddc72476-e359-4594-b391-d3c063065a14 .
 
-ns1:704a51fb-63a7-432c-8b49-15a9d4003a0a a ns1:artwork-component,
+ns2:69b96fa7-e386-4e90-9e30-365db379a007 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Bird ;
-    ns1:has-action ns1:Perched ;
-    ns2:identifier "704a51fb-63a7-432c-8b49-15a9d4003a0a" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns2:depicts ns2:Bird ;
+    ns2:has-action ns2:Perched ;
+    ns1:identifier "69b96fa7-e386-4e90-9e30-365db379a007" ;
+    ns1:isPartOf ns2:13d5466a-12b7-45e2-ae22-f83ec3c59ff3 .
 
-ns1:747b1857-f7bb-4e24-a8fe-81436b8b0ddd a ns1:artwork-component,
+ns2:6cd46e4e-54ed-4327-97cb-d59af9f654af a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Ariadne ;
-    ns1:has-action ns1:Standing ;
-    ns2:identifier "747b1857-f7bb-4e24-a8fe-81436b8b0ddd" ;
-    ns2:isPartOf ns1:756ab1ee-df80-490c-830f-6713fb130d25 .
+    ns2:depicts ns2:Fern ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "6cd46e4e-54ed-4327-97cb-d59af9f654af" ;
+    ns1:isPartOf ns2:fe68ebab-4d55-4844-ac8f-0742a0b0c3c2 .
 
-ns1:75dbb8e5-65ba-4776-867c-53246d18bf17 a ns1:Panel,
-        ns1:artwork-component,
+ns2:6e590ec9-b333-4654-935a-256372adf6fd a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "75dbb8e5-65ba-4776-867c-53246d18bf17" ;
-    ns2:isPartOf ns1:edf480eb-7376-4e80-bbe0-bd0ab963e542 .
+    ns2:depicts ns2:Cornice ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "6e590ec9-b333-4654-935a-256372adf6fd" ;
+    ns1:isPartOf ns2:76b48cf8-a88f-4dfd-85fd-1018b014ef60 .
 
-ns1:76cec6ea-9d41-4941-b3eb-525a6a78b301 a ns1:artwork-component,
+ns2:72da6a76-061e-4e7c-b606-b5df8a33e866 a ns2:Background,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Plate ;
-    ns2:identifier "76cec6ea-9d41-4941-b3eb-525a6a78b301" ;
-    ns2:isPartOf ns1:6829b23e-5766-4610-964f-ae85b17ddab0 .
+    ns2:has-color ns2:Blue ;
+    ns1:identifier "72da6a76-061e-4e7c-b606-b5df8a33e866" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:782d18db-0b33-42d3-acc1-29d5420824e3 a ns1:artwork-component,
+ns2:75761bb2-2a6c-4515-8881-e35f1df34cf5 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "782d18db-0b33-42d3-acc1-29d5420824e3" ;
-    ns2:isPartOf ns1:25e8d730-1567-441a-a5e8-9a808942282d .
+    ns2:depicts ns2:Bird ;
+    ns2:has-action ns2:Perched ;
+    ns1:identifier "75761bb2-2a6c-4515-8881-e35f1df34cf5" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:788f5542-ca72-4305-8ec6-ecc993b802e6 a ns1:artwork-component,
+ns2:799b4db7-3b0f-496c-bcda-fba6d8276ff9 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Bird ;
-    ns1:has-action ns1:Perched ;
-    ns2:identifier "788f5542-ca72-4305-8ec6-ecc993b802e6" ;
-    ns2:isPartOf ns1:5c95cb42-7e74-4813-9368-1f9d0b628f41 .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "799b4db7-3b0f-496c-bcda-fba6d8276ff9" ;
+    ns1:isPartOf ns2:ec6dcf1f-acd1-47d5-8e1c-3475fd5924e0 .
 
-ns1:7aa582c5-7467-4516-8d99-5c9f6396396b a ns1:artwork-component,
+ns2:7d58fa59-bed3-40f4-821f-e5683af1b929 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Man ;
-    ns1:has-action ns1:Half-Kneeling ;
-    ns2:identifier "7aa582c5-7467-4516-8d99-5c9f6396396b" ;
-    ns2:isPartOf ns1:3039f069-324e-4072-9043-4977dd4c6a87 .
+    ns2:depicts ns2:Crow ;
+    ns2:has-action ns2:Flying ;
+    ns1:identifier "7d58fa59-bed3-40f4-821f-e5683af1b929" ;
+    ns1:isPartOf ns2:13d5466a-12b7-45e2-ae22-f83ec3c59ff3 .
 
-ns1:7d6278c4-550c-4261-87f3-cc1eed9406a4 a ns1:artwork-component,
+ns2:818d850a-f6e0-4e8b-85c2-3b99f44eccc4 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Pedestal ;
-    ns2:identifier "7d6278c4-550c-4261-87f3-cc1eed9406a4" ;
-    ns2:isPartOf ns1:cffe9812-303a-40d0-be0b-2097eab2569b .
+    ns2:depicts ns2:Statue ;
+    ns2:has-action ns2:Standing ;
+    ns1:identifier "818d850a-f6e0-4e8b-85c2-3b99f44eccc4" ;
+    ns1:isPartOf ns2:7e5cf403-2602-4b72-8768-ba2fa7f748f5 .
 
-ns1:82cf27ab-51c0-48d6-9249-7cd04ce6e670 a ns1:artwork-component,
+ns2:829414f1-62b7-4041-adad-d912981a80bd a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Cornice ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "82cf27ab-51c0-48d6-9249-7cd04ce6e670" ;
-    ns2:isPartOf ns1:fb88a6e9-a7f6-48e3-8f22-ec07fce288e5 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "829414f1-62b7-4041-adad-d912981a80bd" ;
+    ns1:isPartOf ns2:fed401a1-22c6-4aca-a3f0-b6a177cd79b2 .
 
-ns1:83171565-e0de-4730-9314-5707c82499ae a ns1:artwork-component,
+ns2:830c45fa-50cf-43c8-b3be-8784c96fe242 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tree ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "83171565-e0de-4730-9314-5707c82499ae" ;
-    ns2:isPartOf ns1:6147447f-f333-457a-910f-c28cc192aa7f .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:Red ;
+    ns1:identifier "830c45fa-50cf-43c8-b3be-8784c96fe242" ;
+    ns1:isPartOf ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 .
 
-ns1:8528a799-0f7f-48f6-8a43-d52028eb88fa a ns1:artwork-component,
+ns2:85c1c056-7a29-440e-901a-f50aa0c09797 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lemon ;
-    ns1:has-color ns1:Yellow ;
-    ns1:is-plural true ;
-    ns2:identifier "8528a799-0f7f-48f6-8a43-d52028eb88fa" ;
-    ns2:isPartOf ns1:7fe95a0e-94cf-42c6-8e4e-1e3082ee9a5e .
+    ns2:depicts ns2:Lemon ;
+    ns2:has-color ns2:Yellow ;
+    ns2:is-plural true ;
+    ns1:identifier "85c1c056-7a29-440e-901a-f50aa0c09797" ;
+    ns1:isPartOf ns2:26b126bf-70a7-4103-9af7-ae36bdb3eb51 .
 
-ns1:878df865-701c-451d-b6e4-789d1d3b7212 a ns1:artwork-component,
+ns2:861f09dd-c51d-4612-97f9-58fd3578931f a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Mask ;
-    ns1:has-action ns1:Hanging ;
-    ns2:identifier "878df865-701c-451d-b6e4-789d1d3b7212" ;
-    ns2:isPartOf ns1:18f5e9d6-c3ab-44d2-964d-55eefb7edf37 .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "861f09dd-c51d-4612-97f9-58fd3578931f" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:88dde391-f60e-4761-963a-60a2dc163a32 a ns1:artwork-component,
+ns2:8635845b-30c2-4807-8d1a-3e4b371738a9 a ns2:Background,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "88dde391-f60e-4761-963a-60a2dc163a32" ;
-    ns2:isPartOf ns1:85e107e7-4c90-4d24-9294-47df7ff4d85b .
+    ns2:has-color ns2:Blue ;
+    ns1:identifier "8635845b-30c2-4807-8d1a-3e4b371738a9" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:89303b28-e8ec-46d6-a96e-bdc1e3243edf a ns1:artwork-component,
+ns2:87d3f45b-0184-43ae-82a6-7b3a62e81427 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "89303b28-e8ec-46d6-a96e-bdc1e3243edf" ;
-    ns2:isPartOf ns1:d0dfd96b-8e04-4fcf-bea5-fe350ab719d1 .
+    ns2:depicts ns2:Plate ;
+    ns1:identifier "87d3f45b-0184-43ae-82a6-7b3a62e81427" ;
+    ns1:isPartOf ns2:0f65e07e-5a46-43dd-ba23-7d2282f3b9fb .
 
-ns1:898fe571-279d-4aa6-bc07-aadc4c93c948 a ns1:artwork-component,
+ns2:8bf4debf-802c-492a-9fe1-4b9ec9d95e61 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Stylopinakion ;
-    ns2:identifier "898fe571-279d-4aa6-bc07-aadc4c93c948" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "8bf4debf-802c-492a-9fe1-4b9ec9d95e61" ;
+    ns1:isPartOf ns2:8de8cffa-1ae4-4f2d-bf0b-b850e274527e .
 
-ns1:8f49a945-e51c-4d2c-a102-5f357125310b a ns1:artwork-component,
+ns2:8f79524e-2bd2-47cd-90f9-7768e3342b33 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Stylopinakion ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "8f49a945-e51c-4d2c-a102-5f357125310b" ;
-    ns2:isPartOf ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c .
+    ns2:depicts ns2:Tree ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "8f79524e-2bd2-47cd-90f9-7768e3342b33" ;
+    ns1:isPartOf ns2:26b126bf-70a7-4103-9af7-ae36bdb3eb51 .
 
-ns1:9065d09a-b2d6-4319-a263-1abc811aad5b a ns1:artwork-component,
+ns2:9381bc1c-3337-4877-9922-6effc0ec7759 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "9065d09a-b2d6-4319-a263-1abc811aad5b" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "9381bc1c-3337-4877-9922-6effc0ec7759" ;
+    ns1:isPartOf ns2:4a2e2501-3362-4dd8-9e6f-8ed4368eecfa .
 
-ns1:90991e4d-2db0-4fa8-a80b-1da41c4d23c4 a ns1:artwork-component,
+ns2:93ea1987-bf79-49fc-b0e6-1f8760a9780e a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Geometric ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "90991e4d-2db0-4fa8-a80b-1da41c4d23c4" ;
-    ns2:isPartOf ns1:08d519ce-b3b2-4a86-a858-2e1cd7ed0552 .
+    ns2:depicts ns2:Column ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "93ea1987-bf79-49fc-b0e6-1f8760a9780e" ;
+    ns1:isPartOf ns2:a80db196-5c9c-432d-85df-ffc122985f41 .
 
-ns1:918993ee-2a08-4297-828e-884d13d3ff02 a ns1:artwork-component,
+ns2:94dd9699-fa22-4d13-aa3c-62d2aae5579d a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Geometric ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "918993ee-2a08-4297-828e-884d13d3ff02" ;
-    ns2:isPartOf ns1:d8f75119-2968-4003-91e4-3d2252581ff7 .
+    ns2:depicts ns2:Stylopinakion ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "94dd9699-fa22-4d13-aa3c-62d2aae5579d" ;
+    ns1:isPartOf ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 .
 
-ns1:91e73589-f93e-48ac-a812-6068f2a6b05a a ns1:artwork-component,
+ns2:95fc80dd-f493-4e5f-94c9-e92288a3104c a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Laurel ;
-    ns2:identifier "91e73589-f93e-48ac-a812-6068f2a6b05a" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns2:depicts ns2:Ankh ;
+    ns1:identifier "95fc80dd-f493-4e5f-94c9-e92288a3104c" ;
+    ns1:isPartOf ns2:7e5cf403-2602-4b72-8768-ba2fa7f748f5 .
 
-ns1:93408689-0b79-409a-ade2-9372b9614052 a ns1:artwork-component,
+ns2:96913b67-a54c-4589-946c-30a831af6db3 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Magpie ;
-    ns1:has-action ns1:Perched ;
-    ns2:identifier "93408689-0b79-409a-ade2-9372b9614052" ;
-    ns2:isPartOf ns1:22bf3898-9f8b-4567-b402-efa2a37d98ab .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "96913b67-a54c-4589-946c-30a831af6db3" ;
+    ns1:isPartOf ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 .
 
-ns1:952033e5-1ad2-43f2-8743-8b65373a140a a ns1:artwork-component,
+ns2:9714ccd7-f7fc-41d2-a93a-95009e4bb6b2 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Pinax ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "952033e5-1ad2-43f2-8743-8b65373a140a" ;
-    ns2:isPartOf ns1:bfeb2c16-5ed4-44a6-a6a0-6961580ba2ec .
+    ns2:depicts ns2:Pergola ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "9714ccd7-f7fc-41d2-a93a-95009e4bb6b2" ;
+    ns1:isPartOf ns2:2a02a0fc-06d3-4441-a2ba-336ee520e7b3 .
 
-ns1:9596cce3-4e10-4dd9-a6ae-9951762c62c5 a ns1:artwork-component,
+ns2:99d0c44c-e40c-4d83-892d-745350c914e8 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tree ;
-    ns2:identifier "9596cce3-4e10-4dd9-a6ae-9951762c62c5" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:Red ;
+    ns1:identifier "99d0c44c-e40c-4d83-892d-745350c914e8" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:97b07993-871a-48b2-9a80-11ba69afa17c a ns1:artwork-component,
+ns2:9f4c0082-d6a7-4b72-8459-0420482fcc6b a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Plate ;
-    ns2:identifier "97b07993-871a-48b2-9a80-11ba69afa17c" ;
-    ns2:isPartOf ns1:3039f069-324e-4072-9043-4977dd4c6a87 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "9f4c0082-d6a7-4b72-8459-0420482fcc6b" ;
+    ns1:isPartOf ns2:b4066aad-38ed-4527-8ecf-a4b4fee27c18 .
 
-ns1:99cc4db5-a270-4650-860c-a8de8d1c4353 a ns1:artwork-component,
+ns2:a28b5d79-6a51-4e5f-99bf-7e0efeb6cb05 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "99cc4db5-a270-4650-860c-a8de8d1c4353" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "a28b5d79-6a51-4e5f-99bf-7e0efeb6cb05" ;
+    ns1:isPartOf ns2:90b6d07a-6153-44bc-8f5b-79d852fa4b22 .
 
-ns1:9c3f5b64-18ba-49ee-a518-763f1abd87af a ns1:artwork-component,
+ns2:a77e3850-2e4f-415c-bce3-39bae25753a4 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Garland ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "9c3f5b64-18ba-49ee-a518-763f1abd87af" ;
-    ns2:isPartOf ns1:8c046c44-6e1b-4360-bd08-148473623e8e .
+    ns1:identifier "a77e3850-2e4f-415c-bce3-39bae25753a4" ;
+    ns1:isPartOf ns2:2acf8207-0447-46da-98e4-6cb2ee1ce89f .
 
-ns1:9d6e303a-f14e-4ca0-88c3-7377632133bd a ns1:artwork-component,
+ns2:aa5e729e-d096-4f61-bede-531c0ac78b94 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Cherry ;
-    ns1:has-color ns1:Red ;
-    ns1:is-plural true ;
-    ns2:identifier "9d6e303a-f14e-4ca0-88c3-7377632133bd" ;
-    ns2:isPartOf ns1:6147447f-f333-457a-910f-c28cc192aa7f .
+    ns2:depicts ns2:Geometric ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "aa5e729e-d096-4f61-bede-531c0ac78b94" ;
+    ns1:isPartOf ns2:4a2e2501-3362-4dd8-9e6f-8ed4368eecfa .
 
-ns1:ARC_005857--artwork a ns1:artwork,
+ns2:abbfff71-b861-4ad8-8891-20f4c2c21f8c a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:created-on-surface-of ns1:ARC_005857 ;
-    ns2:identifier "ARC_005857--artwork" .
+    ns2:depicts ns2:Laurel ;
+    ns1:identifier "abbfff71-b861-4ad8-8891-20f4c2c21f8c" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:a35ca7b2-2e49-4e67-9fc9-551f70affa6f a ns1:artwork-component,
+ns2:b105d830-2f9a-4647-8719-ac053c13b33d a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Pedestal ;
-    ns2:identifier "a35ca7b2-2e49-4e67-9fc9-551f70affa6f" ;
-    ns2:isPartOf ns1:196cdb85-530f-4912-8325-146e4e86155b .
+    ns2:depicts ns2:Plant ;
+    ns2:has-color ns2:Green ;
+    ns2:is-plural true ;
+    ns1:identifier "b105d830-2f9a-4647-8719-ac053c13b33d" ;
+    ns1:isPartOf ns2:26b126bf-70a7-4103-9af7-ae36bdb3eb51 .
 
-ns1:a573a10d-00ad-4f8d-a03a-e20daa72df47 a ns1:artwork-component,
+ns2:b2d81b4a-9586-473a-b343-382dfe559896 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Column ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "a573a10d-00ad-4f8d-a03a-e20daa72df47" ;
-    ns2:isPartOf ns1:1d0a5d29-fb5c-4d39-9337-a17229f2ecbe .
+    ns2:depicts ns2:Crown ;
+    ns2:has-action ns2:Wearing ;
+    ns2:has-color ns2:Gold ;
+    ns1:identifier "b2d81b4a-9586-473a-b343-382dfe559896" ;
+    ns1:isPartOf ns2:a4d64a3f-2d74-4561-852f-fa431cd61310 .
 
-ns1:a6caee2a-96b6-4c69-aad1-286a38c5ba95 a ns1:artwork-component,
+ns2:b57a1fbf-35b8-40df-8941-c1d599c95c4b a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Fern ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "a6caee2a-96b6-4c69-aad1-286a38c5ba95" ;
-    ns2:isPartOf ns1:1e46f98e-f92c-43d4-ad27-b842bb2c9fdd .
+    ns2:depicts ns2:Chair ;
+    ns1:identifier "b57a1fbf-35b8-40df-8941-c1d599c95c4b" ;
+    ns1:isPartOf ns2:d252225c-6601-4aeb-a829-71cf7edf8ac9 .
 
-ns1:a7cfde6e-984e-4791-bf83-56c7e4106eb9 a ns1:artwork-component,
+ns2:bc072296-76f7-432b-abda-bcc9ee8435d1 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Tunic ;
-    ns1:has-action ns1:Wearing ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "a7cfde6e-984e-4791-bf83-56c7e4106eb9" ;
-    ns2:isPartOf ns1:756ab1ee-df80-490c-830f-6713fb130d25 .
+    ns2:depicts ns2:Finch ;
+    ns2:has-action ns2:Perched ;
+    ns1:identifier "bc072296-76f7-432b-abda-bcc9ee8435d1" ;
+    ns1:isPartOf ns2:da497752-1db2-4f0f-a9d9-3b21b8b3a370 .
 
-ns1:ae963a4f-d796-442f-99ea-74338f63aebd a ns1:artwork-component,
+ns2:bdc0161f-8a27-4615-b4e3-0f109cf9de5f a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Bird ;
-    ns1:has-action ns1:Perched ;
-    ns2:identifier "ae963a4f-d796-442f-99ea-74338f63aebd" ;
-    ns2:isPartOf ns1:ba3d676f-234c-4dc6-a87b-a75d0b69e23c .
+    ns2:depicts ns2:Tree ;
+    ns1:identifier "bdc0161f-8a27-4615-b4e3-0f109cf9de5f" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:b1c19fba-55d8-4568-b718-aede98d4181c a ns1:Background,
-        ns1:artwork-component,
+ns2:be7c24c9-6a53-4352-91c7-f0e345084684 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Blue ;
-    ns2:identifier "b1c19fba-55d8-4568-b718-aede98d4181c" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns2:depicts ns2:Bird ;
+    ns1:identifier "be7c24c9-6a53-4352-91c7-f0e345084684" ;
+    ns1:isPartOf ns2:8d591ab8-d667-4374-a0a3-5c835cd0b9f1 .
 
-ns1:b35a2b4b-35f7-4b7a-971a-7cdb485bd6a9 a ns1:artwork-component,
+ns2:c391b4ac-2a7d-4343-b65a-2b33e3b0e227 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Diamond ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "b35a2b4b-35f7-4b7a-971a-7cdb485bd6a9" ;
-    ns2:isPartOf ns1:09430d03-8e71-482b-8742-a9ab2c9ffbca .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "c391b4ac-2a7d-4343-b65a-2b33e3b0e227" ;
+    ns1:isPartOf ns2:cd158b3f-bdec-49c7-b3ca-0049371a230d .
 
-ns1:b93743ad-ca2f-4a1e-8e29-299021bec471 a ns1:artwork-component,
+ns2:c42f7f30-632f-4aff-b3bc-41f21cfd586a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Scepter ;
-    ns2:identifier "b93743ad-ca2f-4a1e-8e29-299021bec471" ;
-    ns2:isPartOf ns1:18b898ed-ed12-40ce-981e-d6e7ed69d65c .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "c42f7f30-632f-4aff-b3bc-41f21cfd586a" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:b96ff255-66c6-4feb-888d-dcebc57f1cd5 a ns1:artwork-component,
+ns2:c47dc486-e2c4-4aa6-a05a-cf359c4ce47a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Bird ;
-    ns2:identifier "b96ff255-66c6-4feb-888d-dcebc57f1cd5" ;
-    ns2:isPartOf ns1:dc98c29a-fb13-420b-879b-6950cf807160 .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "c47dc486-e2c4-4aa6-a05a-cf359c4ce47a" ;
+    ns1:isPartOf ns2:12a5032f-d58a-4b9c-9693-84064f77c88b .
 
-ns1:baf54b5f-cf42-4aad-a920-ff609420faa2 a ns1:artwork-component,
+ns2:c566ce48-c4fa-4d9d-9eff-5956818e0f4e a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Figure ;
-    ns1:has-action ns1:Sitting ;
-    ns2:identifier "baf54b5f-cf42-4aad-a920-ff609420faa2" ;
-    ns2:isPartOf ns1:4bec415e-3dfc-46fc-ae27-a25dac742b66 .
+    ns2:depicts ns2:Censor ;
+    ns1:identifier "c566ce48-c4fa-4d9d-9eff-5956818e0f4e" ;
+    ns1:isPartOf ns2:1a55ed8b-5949-4335-9ea0-8ff72b79a1d7 .
 
-ns1:c04575bc-70b0-49a0-805e-100c47a90f14 a ns1:artwork-component,
+ns2:d30e1fff-f26e-443a-866a-8a98efe7be3a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Column ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "c04575bc-70b0-49a0-805e-100c47a90f14" ;
-    ns2:isPartOf ns1:dca35362-e689-4a74-8cf7-c348ea7c5c07 .
+    ns2:depicts ns2:Man ;
+    ns2:has-action ns2:Half-Kneeling ;
+    ns1:identifier "d30e1fff-f26e-443a-866a-8a98efe7be3a" ;
+    ns1:isPartOf ns2:0f65e07e-5a46-43dd-ba23-7d2282f3b9fb .
 
-ns1:c321fbe7-bec5-477e-9f1c-7aaf3f1930b5 a ns1:artwork-component,
+ns2:d4806010-8292-4d0b-a4e5-c169daf4fe3a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Plant ;
-    ns1:has-color ns1:Green ;
-    ns1:is-plural true ;
-    ns2:identifier "c321fbe7-bec5-477e-9f1c-7aaf3f1930b5" ;
-    ns2:isPartOf ns1:65b2f70d-7597-4e43-92ed-a906721f8bd4 .
+    ns2:depicts ns2:Pinax ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "d4806010-8292-4d0b-a4e5-c169daf4fe3a" ;
+    ns1:isPartOf ns2:2f5e2453-0e9b-47a3-af42-00d69c7596ba .
 
-ns1:c3a8d5e1-e97d-4fc1-b1da-4ba102f88b40 a ns1:artwork-component,
+ns2:d5752adf-867c-4275-83bf-dc7ebd593704 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "c3a8d5e1-e97d-4fc1-b1da-4ba102f88b40" ;
-    ns2:isPartOf ns1:1ba56bc5-dd59-48c5-9f50-bdea34ef00f5 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "d5752adf-867c-4275-83bf-dc7ebd593704" ;
+    ns1:isPartOf ns2:b4066aad-38ed-4527-8ecf-a4b4fee27c18 .
 
-ns1:c89e51b9-bb3b-4f47-aba2-39837d3bd98c a ns1:artwork-component,
+ns2:d5c25a3e-4d85-4e98-b7f3-18ef0c889bb0 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Cup ;
-    ns1:has-action ns1:Holding ;
-    ns2:identifier "c89e51b9-bb3b-4f47-aba2-39837d3bd98c" ;
-    ns2:isPartOf ns1:62bf77f9-7330-4ca3-8d85-25bcdc04201e .
+    ns2:depicts ns2:Tree ;
+    ns2:has-color ns2:Green ;
+    ns1:identifier "d5c25a3e-4d85-4e98-b7f3-18ef0c889bb0" ;
+    ns1:isPartOf ns2:e18b6e55-ac02-485c-a362-1987b92f6816 .
 
-ns1:c9817f23-a9ee-4628-8eba-62bd40f8cdd4 a ns1:artwork-component,
+ns2:d87e1980-ee16-4e83-b670-fd659becefbb a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "c9817f23-a9ee-4628-8eba-62bd40f8cdd4" ;
-    ns2:isPartOf ns1:4616a17b-ebd0-495e-9394-822870b31bc7 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "d87e1980-ee16-4e83-b670-fd659becefbb" ;
+    ns1:isPartOf ns2:ddc72476-e359-4594-b391-d3c063065a14 .
 
-ns1:c9b3f35d-94b2-4b44-b27c-28be95308d58 a ns1:artwork-component,
+ns2:da44625f-0631-4ad6-b157-1a8fe7ad6f9e a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Finch ;
-    ns1:has-action ns1:Perched ;
-    ns2:identifier "c9b3f35d-94b2-4b44-b27c-28be95308d58" ;
-    ns2:isPartOf ns1:9e94dc28-0641-43df-99f3-6129f14ef273 .
+    ns2:depicts ns2:Lattice ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "da44625f-0631-4ad6-b157-1a8fe7ad6f9e" ;
+    ns1:isPartOf ns2:bc62b795-fbfc-46c1-8518-a55262ed8432 .
 
-ns1:cce77005-bd21-4823-9843-df4a45443589 a ns1:artwork-component,
+ns2:dcab7c94-def8-44e9-8985-88108fadfa86 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "cce77005-bd21-4823-9843-df4a45443589" ;
-    ns2:isPartOf ns1:96799b4b-7ff0-4c4a-87d6-81710c55d828 .
+    ns2:depicts ns2:Column ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "dcab7c94-def8-44e9-8985-88108fadfa86" ;
+    ns1:isPartOf ns2:116b3c3e-6efe-40be-a4d4-9428949bd83e .
 
-ns1:cebcc02b-7309-42bb-9f65-64e5671a1ca5 a ns1:artwork-component,
+ns2:dcd782ee-eb02-4f04-ac40-a36f81c2f800 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "cebcc02b-7309-42bb-9f65-64e5671a1ca5" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns2:depicts ns2:Censor ;
+    ns1:identifier "dcd782ee-eb02-4f04-ac40-a36f81c2f800" ;
+    ns1:isPartOf ns2:0af6ed45-5b9d-437d-ab67-a5f3ec94c0d7 .
 
-ns1:d0edf91a-0f88-4baf-8a06-f1fda79a0345 a ns1:artwork-component,
+ns2:df8a9cc3-a6ef-476d-9e0c-8c631bc886b9 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "d0edf91a-0f88-4baf-8a06-f1fda79a0345" ;
-    ns2:isPartOf ns1:6b8ac78c-67dd-4af2-b59a-e64c1130602b .
+    ns2:depicts ns2:Man ;
+    ns2:has-action ns2:Standing ;
+    ns1:identifier "df8a9cc3-a6ef-476d-9e0c-8c631bc886b9" ;
+    ns1:isPartOf ns2:53473c09-dacf-40e9-ba1d-01230cf4716d .
 
-ns1:d232ac39-e3ce-46ce-85d4-c4a0750676cd a ns1:artwork-component,
+ns2:e62de7ea-ed45-4e8d-976a-bf5041cc6c95 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "d232ac39-e3ce-46ce-85d4-c4a0750676cd" ;
-    ns2:isPartOf ns1:2d402b6e-400c-4459-8bf8-058f8d70275c .
+    ns2:depicts ns2:Statue ;
+    ns2:has-action ns2:Standing ;
+    ns1:identifier "e62de7ea-ed45-4e8d-976a-bf5041cc6c95" ;
+    ns1:isPartOf ns2:55324564-544b-41ad-a7df-3c5fdc0ca0c2 .
 
-ns1:d503f88a-7c25-4512-aea0-5f04ff670745 a ns1:artwork-component,
+ns2:e750c2ef-906c-49cb-94c4-e2ffb028869b a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Statue ;
-    ns1:has-action ns1:Standing ;
-    ns2:identifier "d503f88a-7c25-4512-aea0-5f04ff670745" ;
-    ns2:isPartOf ns1:017420d8-8ede-4e7f-8891-75a1ba3a228f .
+    ns2:depicts ns2:Ariadne ;
+    ns2:has-action ns2:Standing ;
+    ns1:identifier "e750c2ef-906c-49cb-94c4-e2ffb028869b" ;
+    ns1:isPartOf ns2:76102429-e048-45c0-a381-f33fa255b5ed .
 
-ns1:d74e999e-6257-440c-904f-5014ac507c3c a ns1:artwork-component,
+ns2:e7842428-9953-4a21-bc8c-3d908889e6bd a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "d74e999e-6257-440c-904f-5014ac507c3c" ;
-    ns2:isPartOf ns1:35ffbe14-37a6-46e5-b764-d912b6ed1d95 .
+    ns2:depicts ns2:Plant ;
+    ns2:has-color ns2:Green ;
+    ns2:is-plural true ;
+    ns1:identifier "e7842428-9953-4a21-bc8c-3d908889e6bd" ;
+    ns1:isPartOf ns2:55324564-544b-41ad-a7df-3c5fdc0ca0c2 .
 
-ns1:d7fad379-685d-4d37-8ad3-5b191301f2ba a ns1:artwork-component,
+ns2:ea2be6cf-db2c-4bc5-a4b2-79f967e0b604 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Plant ;
-    ns1:has-color ns1:Green ;
-    ns1:is-plural true ;
-    ns2:identifier "d7fad379-685d-4d37-8ad3-5b191301f2ba" ;
-    ns2:isPartOf ns1:7fe95a0e-94cf-42c6-8e4e-1e3082ee9a5e .
+    ns2:depicts ns2:Border ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "ea2be6cf-db2c-4bc5-a4b2-79f967e0b604" ;
+    ns1:isPartOf ns2:de2df1ee-245d-4e9e-abfb-db21d9e049d3 .
 
-ns1:dd6e9515-94ac-4c31-93ea-6424d2e8323f a ns1:artwork-component,
+ns2:eaedc24a-2837-4957-a48e-f3af358b6c20 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Chair ;
-    ns2:identifier "dd6e9515-94ac-4c31-93ea-6424d2e8323f" ;
-    ns2:isPartOf ns1:18b898ed-ed12-40ce-981e-d6e7ed69d65c .
+    ns2:depicts ns2:Cherry ;
+    ns2:has-color ns2:Red ;
+    ns2:is-plural true ;
+    ns1:identifier "eaedc24a-2837-4957-a48e-f3af358b6c20" ;
+    ns1:isPartOf ns2:e18b6e55-ac02-485c-a362-1987b92f6816 .
 
-ns1:dee5645d-1019-4518-8a85-7edc84533c4c a ns1:artwork-component,
+ns2:eda5411c-f545-4fc7-974e-4358bafb4b61 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Column ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "dee5645d-1019-4518-8a85-7edc84533c4c" ;
-    ns2:isPartOf ns1:445ef0d5-a09c-48a8-8432-45e5385a1086 .
+    ns2:depicts ns2:Geometric ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "eda5411c-f545-4fc7-974e-4358bafb4b61" ;
+    ns1:isPartOf ns2:b4066aad-38ed-4527-8ecf-a4b4fee27c18 .
 
-ns1:df7c5c54-c730-4cf9-8c9f-dffe685480f1 a ns1:artwork-component,
+ns2:eea65dbf-cf3b-475b-b16a-b20ba5c02ab2 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "df7c5c54-c730-4cf9-8c9f-dffe685480f1" ;
-    ns2:isPartOf ns1:08d519ce-b3b2-4a86-a858-2e1cd7ed0552 .
+    ns2:depicts ns2:Ureaus ;
+    ns1:identifier "eea65dbf-cf3b-475b-b16a-b20ba5c02ab2" ;
+    ns1:isPartOf ns2:7e5cf403-2602-4b72-8768-ba2fa7f748f5 .
 
-ns1:e439c730-d1c1-4fae-87aa-8059e5c8bea3 a ns1:artwork-component,
+ns2:f363fbd8-3080-42d0-b9ee-45b181a5120a a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:Red ;
-    ns2:identifier "e439c730-d1c1-4fae-87aa-8059e5c8bea3" ;
-    ns2:isPartOf ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c .
+    ns2:depicts ns2:Column ;
+    ns2:has-color ns2:White ;
+    ns1:identifier "f363fbd8-3080-42d0-b9ee-45b181a5120a" ;
+    ns1:isPartOf ns2:ef552886-b633-4680-9425-544f1ba3bddb .
 
-ns1:e4cd496e-9a2f-48de-8789-5728ad745c0e a ns1:artwork-component,
+ns2:f44ab421-5f48-4257-a3ef-d80af1464657 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Acanthus ;
-    ns1:has-color ns1:Green ;
-    ns2:identifier "e4cd496e-9a2f-48de-8789-5728ad745c0e" ;
-    ns2:isPartOf ns1:d335a57d-071d-4348-8ac4-f3277496af71 .
+    ns2:depicts ns2:Dove ;
+    ns2:has-action ns2:Flying ;
+    ns1:identifier "f44ab421-5f48-4257-a3ef-d80af1464657" ;
+    ns1:isPartOf ns2:a565700e-3eaa-4b4b-ad37-efd3c774f99e .
 
-ns1:ea124063-9e22-4947-b016-d93a6537d773 a ns1:artwork-component,
+ns2:f6a36cc7-d7dc-4c73-bf4f-cf6b180a0348 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "ea124063-9e22-4947-b016-d93a6537d773" ;
-    ns2:isPartOf ns1:2d402b6e-400c-4459-8bf8-058f8d70275c .
+    ns2:depicts ns2:Cup ;
+    ns2:has-action ns2:Holding ;
+    ns1:identifier "f6a36cc7-d7dc-4c73-bf4f-cf6b180a0348" ;
+    ns1:isPartOf ns2:a4d64a3f-2d74-4561-852f-fa431cd61310 .
 
-ns1:efe92eb7-e0f0-450e-8566-d68fda02c481 a ns1:artwork-component,
+ns2:f72a1ab9-5997-4cf0-bfd0-4b5a5064bd96 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Border ;
-    ns1:has-color ns1:White ;
-    ns2:identifier "efe92eb7-e0f0-450e-8566-d68fda02c481" ;
-    ns2:isPartOf ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c .
+    ns2:depicts ns2:Tunic ;
+    ns2:has-action ns2:Wearing ;
+    ns2:has-color ns2:Yellow ;
+    ns1:identifier "f72a1ab9-5997-4cf0-bfd0-4b5a5064bd96" ;
+    ns1:isPartOf ns2:76102429-e048-45c0-a381-f33fa255b5ed .
 
-ns1:f6a1815c-7505-4e70-8ff7-d54fad434cd5 a ns1:artwork-component,
+ns2:f8d448a9-c8f9-443a-b275-e42206b56257 a ns2:Border,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Ureaus ;
-    ns2:identifier "f6a1815c-7505-4e70-8ff7-d54fad434cd5" ;
-    ns2:isPartOf ns1:017420d8-8ede-4e7f-8891-75a1ba3a228f .
+    ns2:has-color ns2:Red ;
+    ns1:identifier "f8d448a9-c8f9-443a-b275-e42206b56257" ;
+    ns1:isPartOf ns2:47cd3d0c-5da6-4a43-aa1c-e39d97610f94 .
 
-ns1:fc54b62d-2df2-4432-9136-197ed10a029f a ns1:artwork-component,
+ns2:fd2e08e3-5a3e-4e36-ad39-6597ab7b0126 a ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Lattice ;
-    ns1:has-color ns1:Yellow ;
-    ns2:identifier "fc54b62d-2df2-4432-9136-197ed10a029f" ;
-    ns2:isPartOf ns1:6b8ac78c-67dd-4af2-b59a-e64c1130602b .
+    ns2:depicts ns2:Scepter ;
+    ns1:identifier "fd2e08e3-5a3e-4e36-ad39-6597ab7b0126" ;
+    ns1:isPartOf ns2:144b6358-65e7-4ae6-aa6d-7f47b87ccb84 .
 
-ns1:fc79e7d0-d62c-4eb9-90bb-7ccc7a184c93 a ns1:artwork-component,
+ns2:0af6ed45-5b9d-437d-ab67-a5f3ec94c0d7 a ns2:Center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:depicts ns1:Man ;
-    ns1:has-action ns1:Standing ;
-    ns2:identifier "fc79e7d0-d62c-4eb9-90bb-7ccc7a184c93" ;
-    ns2:isPartOf ns1:6829b23e-5766-4610-964f-ae85b17ddab0 .
+    ns1:identifier "0af6ed45-5b9d-437d-ab67-a5f3ec94c0d7" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:09430d03-8e71-482b-8742-a9ab2c9ffbca a ns1:CenterMiddle,
-        ns1:artwork-component,
+ns2:0cbb7883-4284-4ccc-ab2c-a1bedc339407 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "09430d03-8e71-482b-8742-a9ab2c9ffbca" ;
-    ns2:isPartOf ns1:43118a5f-5a81-4959-b60c-257c6a5d2913 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "0cbb7883-4284-4ccc-ab2c-a1bedc339407" ;
+    ns1:isPartOf ns2:aab5d1e0-8b99-4505-9807-6df60d3527d4 .
 
-ns1:0f372e09-8af0-4b17-ba81-a90fce79cdf3 a ns1:Left_sideMiddle,
-        ns1:artwork-component,
+ns2:0ef102df-12d5-4eab-8aaa-dd5a40285b25 a ns2:Left_sideMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "0f372e09-8af0-4b17-ba81-a90fce79cdf3" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "0ef102df-12d5-4eab-8aaa-dd5a40285b25" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:1899c37e-0c48-4b10-b738-188ed02d7b78 a ns1:Left_sideMiddle,
-        ns1:artwork-component,
+ns2:0fcfde58-9949-4c1a-a12a-3447358352d0 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "1899c37e-0c48-4b10-b738-188ed02d7b78" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "0fcfde58-9949-4c1a-a12a-3447358352d0" ;
+    ns1:isPartOf ns2:80bce262-8d1a-448f-ba9d-13ef6a37e3cc .
 
-ns1:18f5e9d6-c3ab-44d2-964d-55eefb7edf37 a ns1:CenterTop_middle,
-        ns1:artwork-component,
+ns2:12988a0a-3339-4f6f-9283-8ef711d7f2fa a ns2:CenterBottom_middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "18f5e9d6-c3ab-44d2-964d-55eefb7edf37" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "12988a0a-3339-4f6f-9283-8ef711d7f2fa" ;
+    ns1:isPartOf ns2:1d311563-25f0-4680-9eac-41728fc5159f .
 
-ns1:196cdb85-530f-4912-8325-146e4e86155b a ns1:Bottom,
-        ns1:artwork-component,
+ns2:13547054-056e-4f38-9cc0-093a8688cbb8 a ns2:Left_sideBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "196cdb85-530f-4912-8325-146e4e86155b" ;
-    ns2:isPartOf ns1:82b4edb6-7fe6-4047-a115-8e3bfd480db6 .
+    ns1:identifier "13547054-056e-4f38-9cc0-093a8688cbb8" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:1ba56bc5-dd59-48c5-9f50-bdea34ef00f5 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:154206b5-5c13-4206-a0bf-feabc7c5c686 a ns2:CenterBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "1ba56bc5-dd59-48c5-9f50-bdea34ef00f5" ;
-    ns2:isPartOf ns1:edddee43-92cc-465b-a370-3b9d3517a616 .
+    ns1:identifier "154206b5-5c13-4206-a0bf-feabc7c5c686" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:1e46f98e-f92c-43d4-ad27-b842bb2c9fdd a ns1:Panel,
-        ns1:artwork-component,
+ns2:1a55ed8b-5949-4335-9ea0-8ff72b79a1d7 a ns2:Center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "1e46f98e-f92c-43d4-ad27-b842bb2c9fdd" ;
-    ns2:isPartOf ns1:24ce3e62-cd7f-42c5-abf4-c80b205cbc0e .
+    ns1:identifier "1a55ed8b-5949-4335-9ea0-8ff72b79a1d7" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:22bf3898-9f8b-4567-b402-efa2a37d98ab a ns1:Left_centerBottommost,
-        ns1:artwork-component,
+ns2:1fce8799-7e29-4769-9d63-c3e8db26b4a4 a ns2:Bottommost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "22bf3898-9f8b-4567-b402-efa2a37d98ab" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "1fce8799-7e29-4769-9d63-c3e8db26b4a4" ;
+    ns1:isPartOf ns2:116b3c3e-6efe-40be-a4d4-9428949bd83e .
 
-ns1:2408e926-b855-455c-9868-d7a4070ef83e a ns1:Left_center,
-        ns1:artwork-component,
+ns2:24b144bd-4ba3-4e1f-a237-2e0bb23df856 a ns2:Bottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "2408e926-b855-455c-9868-d7a4070ef83e" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns1:identifier "24b144bd-4ba3-4e1f-a237-2e0bb23df856" ;
+    ns1:isPartOf ns2:1daa57c4-7f39-4929-b370-3f4ca12b66d7 .
 
-ns1:24ce3e62-cd7f-42c5-abf4-c80b205cbc0e a ns1:Right_side,
-        ns1:artwork-component,
+ns2:2a02a0fc-06d3-4441-a2ba-336ee520e7b3 a ns2:Topmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "24ce3e62-cd7f-42c5-abf4-c80b205cbc0e" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns1:identifier "2a02a0fc-06d3-4441-a2ba-336ee520e7b3" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:25e8d730-1567-441a-a5e8-9a808942282d a ns1:Compartment,
-        ns1:artwork-component,
+ns2:2acf8207-0447-46da-98e4-6cb2ee1ce89f a ns2:Left_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "25e8d730-1567-441a-a5e8-9a808942282d" ;
-    ns2:isPartOf ns1:64977a2c-3bc8-414c-b9f5-4c1e833afa52 .
+    ns1:identifier "2acf8207-0447-46da-98e4-6cb2ee1ce89f" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:28193934-7bbd-4ea1-8d25-5901fe0b5c39 a ns1:Left_centerBottom,
-        ns1:artwork-component,
+ns2:2f5e2453-0e9b-47a3-af42-00d69c7596ba a ns2:Pinax,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "28193934-7bbd-4ea1-8d25-5901fe0b5c39" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "2f5e2453-0e9b-47a3-af42-00d69c7596ba" ;
+    ns1:isPartOf ns2:ae617e56-1f88-4b5e-8eb2-a4b5967173dd .
 
-ns1:3300bc18-130d-49f7-9f44-4a2493a2e18d a ns1:Left_sideTop,
-        ns1:artwork-component,
+ns2:3890fdca-c3be-4fa7-b00a-d36ed69214bd a ns2:Left_centerBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "3300bc18-130d-49f7-9f44-4a2493a2e18d" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "3890fdca-c3be-4fa7-b00a-d36ed69214bd" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:35ffbe14-37a6-46e5-b764-d912b6ed1d95 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:3cc69b33-56fd-4cd4-834e-ac4278faf76d a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "35ffbe14-37a6-46e5-b764-d912b6ed1d95" ;
-    ns2:isPartOf ns1:9c30e1a1-31d1-48b0-8855-1c0ec4ba3fa7 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "3cc69b33-56fd-4cd4-834e-ac4278faf76d" ;
+    ns1:isPartOf ns2:c62f6094-33ba-4bdf-b7c4-130eaa3513ca .
 
-ns1:3a2c6527-0aaa-4228-8f29-bbf7c2b98624 a ns1:CenterBottom,
-        ns1:artwork-component,
+ns2:406c6084-0360-4214-9fe4-c9df583e635b a ns2:CenterMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "3a2c6527-0aaa-4228-8f29-bbf7c2b98624" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "406c6084-0360-4214-9fe4-c9df583e635b" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:4364a093-ef25-4bef-bff5-7a4bf7d5eb90 a ns1:Left_sideBottom,
-        ns1:artwork-component,
+ns2:4116152a-5337-4626-8742-a059c880d461 a ns2:Left_sideTop,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "4364a093-ef25-4bef-bff5-7a4bf7d5eb90" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "4116152a-5337-4626-8742-a059c880d461" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:445ef0d5-a09c-48a8-8432-45e5385a1086 a ns1:Left_center,
-        ns1:artwork-component,
+ns2:47cd3d0c-5da6-4a43-aa1c-e39d97610f94 a ns2:Rightmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "445ef0d5-a09c-48a8-8432-45e5385a1086" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "47cd3d0c-5da6-4a43-aa1c-e39d97610f94" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:4616a17b-ebd0-495e-9394-822870b31bc7 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:4e145c6e-5de6-4f99-ba56-5126ced9b6ce a ns2:Leftmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "4616a17b-ebd0-495e-9394-822870b31bc7" ;
-    ns2:isPartOf ns1:72612b98-3ca1-418b-bc13-25fb2f29b975 .
+    ns1:identifier "4e145c6e-5de6-4f99-ba56-5126ced9b6ce" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:462bfb9d-d535-4b9e-be41-88ccf9814c67 a ns1:Bottommost,
-        ns1:artwork-component,
+ns2:60505995-1c79-4d5e-a69e-25095fd27fbf a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "462bfb9d-d535-4b9e-be41-88ccf9814c67" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "60505995-1c79-4d5e-a69e-25095fd27fbf" ;
+    ns1:isPartOf ns2:9d09f1f7-43e4-4c1e-b875-daeb721d01a8 .
 
-ns1:4f9c0670-c0cc-438e-99b6-c9033ff97c41 a ns1:Right_centerBottom,
-        ns1:artwork-component,
+ns2:754369aa-372a-408e-a1e1-fec69b087ef7 a ns2:Center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "4f9c0670-c0cc-438e-99b6-c9033ff97c41" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "754369aa-372a-408e-a1e1-fec69b087ef7" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:591eaa0f-c0da-4296-b6eb-f1dd1e2d7380 a ns1:Center,
-        ns1:artwork-component,
+ns2:80bce262-8d1a-448f-ba9d-13ef6a37e3cc a ns2:Center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "591eaa0f-c0da-4296-b6eb-f1dd1e2d7380" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns1:identifier "80bce262-8d1a-448f-ba9d-13ef6a37e3cc" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:5eb32976-4a07-4872-86f2-a68ca502bac0 a ns1:Left_center,
-        ns1:artwork-component,
+ns2:811abf58-1265-4973-b020-477a4ba076e5 a ns2:Leftmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "5eb32976-4a07-4872-86f2-a68ca502bac0" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "811abf58-1265-4973-b020-477a4ba076e5" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:64977a2c-3bc8-414c-b9f5-4c1e833afa52 a ns1:Right_sideBottom,
-        ns1:artwork-component,
+ns2:823128bc-9642-4ade-bfc9-901634df4e40 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "64977a2c-3bc8-414c-b9f5-4c1e833afa52" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "823128bc-9642-4ade-bfc9-901634df4e40" ;
+    ns1:isPartOf ns2:de9d2861-3cab-4c46-be8b-911c33da80cc .
 
-ns1:65558881-8f13-4958-ab69-e1791cf3364f a ns1:CenterBottom_middle,
-        ns1:artwork-component,
+ns2:86ed1f6c-1b0a-435b-ab40-8b69d700f10f a ns2:Left_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "65558881-8f13-4958-ab69-e1791cf3364f" ;
-    ns2:isPartOf ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 .
+    ns1:identifier "86ed1f6c-1b0a-435b-ab40-8b69d700f10f" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:711be69a-bc47-4978-ba34-0a4c5a2a46a2 a ns1:Left_sideBottom,
-        ns1:artwork-component,
+ns2:8bbcc0b2-2182-47e9-bcc2-0e74e3879080 a ns2:Right_sideTop,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "711be69a-bc47-4978-ba34-0a4c5a2a46a2" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "8bbcc0b2-2182-47e9-bcc2-0e74e3879080" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:72612b98-3ca1-418b-bc13-25fb2f29b975 a ns1:CenterTop,
-        ns1:artwork-component,
+ns2:8d591ab8-d667-4374-a0a3-5c835cd0b9f1 a ns2:Top_middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "72612b98-3ca1-418b-bc13-25fb2f29b975" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "8d591ab8-d667-4374-a0a3-5c835cd0b9f1" ;
+    ns1:isPartOf ns2:1daa57c4-7f39-4929-b370-3f4ca12b66d7 .
 
-ns1:741bedf9-1f72-4516-a119-079872b0a7a5 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:8de8cffa-1ae4-4f2d-bf0b-b850e274527e a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "741bedf9-1f72-4516-a119-079872b0a7a5" ;
-    ns2:isPartOf ns1:711be69a-bc47-4978-ba34-0a4c5a2a46a2 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "8de8cffa-1ae4-4f2d-bf0b-b850e274527e" ;
+    ns1:isPartOf ns2:4e145c6e-5de6-4f99-ba56-5126ced9b6ce .
 
-ns1:748cdf15-d750-489c-a940-2d0d2c1d7a26 a ns1:Right_sideMiddle,
-        ns1:artwork-component,
+ns2:8e33f170-55b5-42ab-940e-628cffe9b78e a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "748cdf15-d750-489c-a940-2d0d2c1d7a26" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "8e33f170-55b5-42ab-940e-628cffe9b78e" ;
+    ns1:isPartOf ns2:baef188c-e80f-4156-a438-8630b4154c07 .
 
-ns1:7a2afa50-4565-4ef3-9730-626b7fec5e1e a ns1:Topmost,
-        ns1:artwork-component,
+ns2:96f46cc9-bcc1-494c-8ee7-dcd9731bb457 a ns2:CenterMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "7a2afa50-4565-4ef3-9730-626b7fec5e1e" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "96f46cc9-bcc1-494c-8ee7-dcd9731bb457" ;
+    ns1:isPartOf ns2:de2df1ee-245d-4e9e-abfb-db21d9e049d3 .
 
-ns1:853d88df-5106-471f-b9c9-37e6df61a283 a ns1:Center,
-        ns1:artwork-component,
+ns2:9806d183-96e8-4a07-85bb-cd1dc639e4d3 a ns2:Left_sideBottom_middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "853d88df-5106-471f-b9c9-37e6df61a283" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns1:identifier "9806d183-96e8-4a07-85bb-cd1dc639e4d3" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:85e107e7-4c90-4d24-9294-47df7ff4d85b a ns1:Compartment,
-        ns1:artwork-component,
+ns2:9d09f1f7-43e4-4c1e-b875-daeb721d01a8 a ns2:Right_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "85e107e7-4c90-4d24-9294-47df7ff4d85b" ;
-    ns2:isPartOf ns1:a9500740-8232-4816-b0e1-ef237793ed2c .
+    ns1:identifier "9d09f1f7-43e4-4c1e-b875-daeb721d01a8" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:87c49d41-a590-42b9-8a9d-4a5a6ec59ea3 a ns1:Center,
-        ns1:artwork-component,
+ns2:a3edcb4c-2ec6-4eae-a5ed-c5285fa9ad3d a ns2:Left_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "87c49d41-a590-42b9-8a9d-4a5a6ec59ea3" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns1:identifier "a3edcb4c-2ec6-4eae-a5ed-c5285fa9ad3d" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:88e6a9a9-953b-4c09-b70e-3f08f6865ef5 a ns1:CenterMiddle,
-        ns1:artwork-component,
+ns2:a4cc6276-f4fd-4f16-96e9-423d71cac103 a ns2:Right_centerBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "88e6a9a9-953b-4c09-b70e-3f08f6865ef5" ;
-    ns2:isPartOf ns1:96799b4b-7ff0-4c4a-87d6-81710c55d828 .
+    ns1:identifier "a4cc6276-f4fd-4f16-96e9-423d71cac103" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:898b6a26-2906-46e6-9041-997c8492d6bf a ns1:Rightmost,
-        ns1:artwork-component,
+ns2:a565700e-3eaa-4b4b-ad37-efd3c774f99e a ns2:RightmostMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "898b6a26-2906-46e6-9041-997c8492d6bf" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "a565700e-3eaa-4b4b-ad37-efd3c774f99e" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:8c046c44-6e1b-4360-bd08-148473623e8e a ns1:Right_sideTop,
-        ns1:artwork-component,
+ns2:a80db196-5c9c-432d-85df-ffc122985f41 a ns2:Right_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "8c046c44-6e1b-4360-bd08-148473623e8e" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "a80db196-5c9c-432d-85df-ffc122985f41" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:90a8c776-9a14-4ab9-a5d5-92c9b2f3ad5d a ns1:CenterMiddle,
-        ns1:artwork-component,
+ns2:aab5d1e0-8b99-4505-9807-6df60d3527d4 a ns2:Right_sideBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "90a8c776-9a14-4ab9-a5d5-92c9b2f3ad5d" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "aab5d1e0-8b99-4505-9807-6df60d3527d4" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:9c30e1a1-31d1-48b0-8855-1c0ec4ba3fa7 a ns1:Right_sideTop,
-        ns1:artwork-component,
+ns2:ab4bd4b7-4e5b-45b1-8156-20e660fa4e33 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "9c30e1a1-31d1-48b0-8855-1c0ec4ba3fa7" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "ab4bd4b7-4e5b-45b1-8156-20e660fa4e33" ;
+    ns1:isPartOf ns2:13547054-056e-4f38-9cc0-093a8688cbb8 .
 
-ns1:9e8c8b7e-2aa8-4406-a322-97e40fb778b4 a ns1:Left_sideBottom_middle,
-        ns1:artwork-component,
+ns2:ae617e56-1f88-4b5e-8eb2-a4b5967173dd a ns2:CenterMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "9e8c8b7e-2aa8-4406-a322-97e40fb778b4" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "ae617e56-1f88-4b5e-8eb2-a4b5967173dd" ;
+    ns1:isPartOf ns2:12a5032f-d58a-4b9c-9693-84064f77c88b .
 
-ns1:9e94dc28-0641-43df-99f3-6129f14ef273 a ns1:Right_centerBottommost,
-        ns1:artwork-component,
+ns2:b5720a7c-9b13-407e-b5db-168b109bfe94 a ns2:CenterTop_middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "9e94dc28-0641-43df-99f3-6129f14ef273" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "b5720a7c-9b13-407e-b5db-168b109bfe94" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:a034f9b6-c80d-471a-912b-60b961c91a98 a ns1:Rightmost,
-        ns1:artwork-component,
+ns2:b6e9f7bb-74ac-4462-89d5-d0d853d4ebf3 a ns2:Right_sideTop,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "a034f9b6-c80d-471a-912b-60b961c91a98" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns1:identifier "b6e9f7bb-74ac-4462-89d5-d0d853d4ebf3" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:a824c7cf-398d-433f-bdd7-386657b56703 a ns1:Panel,
-        ns1:artwork-component,
+ns2:baef188c-e80f-4156-a438-8630b4154c07 a ns2:CenterTop,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "a824c7cf-398d-433f-bdd7-386657b56703" ;
-    ns2:isPartOf ns1:f6741dbf-c7eb-4f31-84de-d8e44f641056 .
+    ns1:identifier "baef188c-e80f-4156-a438-8630b4154c07" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:a9500740-8232-4816-b0e1-ef237793ed2c a ns1:Right_center,
-        ns1:artwork-component,
+ns2:bc62b795-fbfc-46c1-8518-a55262ed8432 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "a9500740-8232-4816-b0e1-ef237793ed2c" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "bc62b795-fbfc-46c1-8518-a55262ed8432" ;
+    ns1:isPartOf ns2:154206b5-5c13-4206-a0bf-feabc7c5c686 .
 
-ns1:a9dd757f-1d87-496e-931c-c3a094337e46 a ns1:Leftmost,
-        ns1:artwork-component,
+ns2:c62f6094-33ba-4bdf-b7c4-130eaa3513ca a ns2:Left_sideTop,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "a9dd757f-1d87-496e-931c-c3a094337e46" ;
-    ns2:isPartOf ns1:5d33d049-9118-41be-a062-1b3e1550f2aa .
+    ns1:identifier "c62f6094-33ba-4bdf-b7c4-130eaa3513ca" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:b72a829c-f86a-4ec4-a2b4-6fe9edc28d20 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:c6f765d7-38f0-4130-8eff-cefece2b8f4a a ns2:Bottommost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "b72a829c-f86a-4ec4-a2b4-6fe9edc28d20" ;
-    ns2:isPartOf ns1:a034f9b6-c80d-471a-912b-60b961c91a98 .
+    ns1:identifier "c6f765d7-38f0-4130-8eff-cefece2b8f4a" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:b763aff6-9820-417a-8b16-3d887013cb33 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:c8ccf2ee-d189-4483-92a6-be1dd7c8bda1 a ns2:Leftmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "b763aff6-9820-417a-8b16-3d887013cb33" ;
-    ns2:isPartOf ns1:3300bc18-130d-49f7-9f44-4a2493a2e18d .
+    ns1:identifier "c8ccf2ee-d189-4483-92a6-be1dd7c8bda1" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:ba3d676f-234c-4dc6-a87b-a75d0b69e23c a ns1:Bottommost,
-        ns1:artwork-component,
+ns2:cd158b3f-bdec-49c7-b3ca-0049371a230d a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "ba3d676f-234c-4dc6-a87b-a75d0b69e23c" ;
-    ns2:isPartOf ns1:1d0a5d29-fb5c-4d39-9337-a17229f2ecbe .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "cd158b3f-bdec-49c7-b3ca-0049371a230d" ;
+    ns1:isPartOf ns2:8bbcc0b2-2182-47e9-bcc2-0e74e3879080 .
 
-ns1:bc68d906-75e2-433b-9147-ce7b4f236bf0 a ns1:Left_sideTop,
-        ns1:artwork-component,
+ns2:d33f9c00-122b-48f7-b3b6-efcb0da10a0e a ns2:CenterMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "bc68d906-75e2-433b-9147-ce7b4f236bf0" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "d33f9c00-122b-48f7-b3b6-efcb0da10a0e" ;
+    ns1:isPartOf ns2:9ee60ef1-90ea-4f05-a564-d7e5109c9b4a .
 
-ns1:bfeb2c16-5ed4-44a6-a6a0-6961580ba2ec a ns1:Pinax,
-        ns1:artwork-component,
+ns2:d7f4a7f3-969c-4086-a724-396042d11632 a ns2:Left_sideMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "bfeb2c16-5ed4-44a6-a6a0-6961580ba2ec" ;
-    ns2:isPartOf ns1:e9521732-b709-487d-8dfa-f18156377dde .
+    ns1:identifier "d7f4a7f3-969c-4086-a724-396042d11632" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:c3164529-031d-43ea-9d84-c8d4a1bb701e a ns1:Right_center,
-        ns1:artwork-component,
+ns2:d9729e37-0976-408a-a838-f4a54c67db42 a ns2:Left_sideBottom,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "c3164529-031d-43ea-9d84-c8d4a1bb701e" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "d9729e37-0976-408a-a838-f4a54c67db42" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:cf33fc11-a449-4576-8c76-bcac530742fb a ns1:RightmostMiddle,
-        ns1:artwork-component,
+ns2:da497752-1db2-4f0f-a9d9-3b21b8b3a370 a ns2:Right_centerBottommost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "cf33fc11-a449-4576-8c76-bcac530742fb" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "da497752-1db2-4f0f-a9d9-3b21b8b3a370" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:cffe9812-303a-40d0-be0b-2097eab2569b a ns1:Panel,
-        ns1:artwork-component,
+ns2:de9d2861-3cab-4c46-be8b-911c33da80cc a ns2:Right_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "cffe9812-303a-40d0-be0b-2097eab2569b" ;
-    ns2:isPartOf ns1:4364a093-ef25-4bef-bff5-7a4bf7d5eb90 .
+    ns1:identifier "de9d2861-3cab-4c46-be8b-911c33da80cc" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:d0dfd96b-8e04-4fcf-bea5-fe350ab719d1 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:e4474691-f0f7-4d3e-853d-692df34c7bea a ns2:Left_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "d0dfd96b-8e04-4fcf-bea5-fe350ab719d1" ;
-    ns2:isPartOf ns1:3a2c6527-0aaa-4228-8f29-bbf7c2b98624 .
+    ns1:identifier "e4474691-f0f7-4d3e-853d-692df34c7bea" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:d335a57d-071d-4348-8ac4-f3277496af71 a ns1:Panel,
-        ns1:artwork-component,
+ns2:e4eecf09-6206-43a8-bb21-0ee4ce33d2a7 a ns2:Right_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "d335a57d-071d-4348-8ac4-f3277496af71" ;
-    ns2:isPartOf ns1:87c49d41-a590-42b9-8a9d-4a5a6ec59ea3 .
+    ns1:identifier "e4eecf09-6206-43a8-bb21-0ee4ce33d2a7" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:dc98c29a-fb13-420b-879b-6950cf807160 a ns1:Top_middle,
-        ns1:artwork-component,
+ns2:e5f4d310-c189-484d-a8f6-4ad02a48b2a4 a ns2:Left_centerBottommost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "dc98c29a-fb13-420b-879b-6950cf807160" ;
-    ns2:isPartOf ns1:82b4edb6-7fe6-4047-a115-8e3bfd480db6 .
+    ns1:identifier "e5f4d310-c189-484d-a8f6-4ad02a48b2a4" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:dca35362-e689-4a74-8cf7-c348ea7c5c07 a ns1:Leftmost,
-        ns1:artwork-component,
+ns2:e6ad00d3-ed22-4187-af27-55de57301a8e a ns2:Right_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "dca35362-e689-4a74-8cf7-c348ea7c5c07" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "e6ad00d3-ed22-4187-af27-55de57301a8e" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:def3a561-61e1-482a-a4c5-1e897c1c25b4 a ns1:Right_side,
-        ns1:artwork-component,
+ns2:eb7e0c35-a985-41d8-b74e-5a2306b59083 a ns2:Rightmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "def3a561-61e1-482a-a4c5-1e897c1c25b4" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "eb7e0c35-a985-41d8-b74e-5a2306b59083" ;
+    ns1:isPartOf ns2:56bfc305-e793-4f9b-b0b3-22aed240beee .
 
-ns1:e9521732-b709-487d-8dfa-f18156377dde a ns1:CenterMiddle,
-        ns1:artwork-component,
+ns2:ec6dcf1f-acd1-47d5-8e1c-3475fd5924e0 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "e9521732-b709-487d-8dfa-f18156377dde" ;
-    ns2:isPartOf ns1:339e8222-cd53-44b8-9eed-1682cdc4a54e .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "ec6dcf1f-acd1-47d5-8e1c-3475fd5924e0" ;
+    ns1:isPartOf ns2:eb7e0c35-a985-41d8-b74e-5a2306b59083 .
 
-ns1:ec97cb2a-fece-4a23-afd7-16d58d7630f6 a ns1:Center,
-        ns1:artwork-component,
+ns2:ef552886-b633-4680-9425-544f1ba3bddb a ns2:Left_center,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "ec97cb2a-fece-4a23-afd7-16d58d7630f6" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns1:identifier "ef552886-b633-4680-9425-544f1ba3bddb" ;
+    ns1:isPartOf ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d .
 
-ns1:edddee43-92cc-465b-a370-3b9d3517a616 a ns1:Leftmost,
-        ns1:artwork-component,
+ns2:f3f071f0-2fcf-4756-89f5-a10717df101d a ns2:Right_sideMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "edddee43-92cc-465b-a370-3b9d3517a616" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns1:identifier "f3f071f0-2fcf-4756-89f5-a10717df101d" ;
+    ns1:isPartOf ns2:0d347394-593c-4142-b235-cc1117f9bfc4 .
 
-ns1:edf480eb-7376-4e80-bbe0-bd0ab963e542 a ns1:Left_side,
-        ns1:artwork-component,
+ns2:f6fcf09d-d3eb-4142-ae0f-ac64d8aba0c9 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "edf480eb-7376-4e80-bbe0-bd0ab963e542" ;
-    ns2:isPartOf ns1:fbe7eaa1-b0fb-4d0e-8842-babe2db65aee .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "f6fcf09d-d3eb-4142-ae0f-ac64d8aba0c9" ;
+    ns1:isPartOf ns2:d9729e37-0976-408a-a838-f4a54c67db42 .
 
-ns1:f6741dbf-c7eb-4f31-84de-d8e44f641056 a ns1:Left_side,
-        ns1:artwork-component,
+ns2:fe68ebab-4d55-4844-ac8f-0742a0b0c3c2 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "f6741dbf-c7eb-4f31-84de-d8e44f641056" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "fe68ebab-4d55-4844-ac8f-0742a0b0c3c2" ;
+    ns1:isPartOf ns2:86ed1f6c-1b0a-435b-ab40-8b69d700f10f .
 
-ns1:f7e7552b-017b-4199-9037-56fc0d5fd05c a ns1:Right_center,
-        ns1:artwork-component,
+ns2:fed401a1-22c6-4aca-a3f0-b6a177cd79b2 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "f7e7552b-017b-4199-9037-56fc0d5fd05c" ;
-    ns2:isPartOf ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "fed401a1-22c6-4aca-a3f0-b6a177cd79b2" ;
+    ns1:isPartOf ns2:e4474691-f0f7-4d3e-853d-692df34c7bea .
 
-ns1:f9bcee20-311f-4efe-9614-bc3a7802740f a ns1:Compartment,
-        ns1:artwork-component,
+ns2:0f65e07e-5a46-43dd-ba23-7d2282f3b9fb a ns2:Right_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "f9bcee20-311f-4efe-9614-bc3a7802740f" ;
-    ns2:isPartOf ns1:5eb32976-4a07-4872-86f2-a68ca502bac0 .
+    ns1:identifier "0f65e07e-5a46-43dd-ba23-7d2282f3b9fb" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:1d0a5d29-fb5c-4d39-9337-a17229f2ecbe a ns1:Leftmost,
-        ns1:artwork-component,
+ns2:116b3c3e-6efe-40be-a4d4-9428949bd83e a ns2:Leftmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "1d0a5d29-fb5c-4d39-9337-a17229f2ecbe" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "116b3c3e-6efe-40be-a4d4-9428949bd83e" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:2d402b6e-400c-4459-8bf8-058f8d70275c a ns1:Compartment,
-        ns1:artwork-component,
+ns2:12a5032f-d58a-4b9c-9693-84064f77c88b a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "2d402b6e-400c-4459-8bf8-058f8d70275c" ;
-    ns2:isPartOf ns1:a9dd757f-1d87-496e-931c-c3a094337e46 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "12a5032f-d58a-4b9c-9693-84064f77c88b" ;
+    ns1:isPartOf ns2:a3edcb4c-2ec6-4eae-a5ed-c5285fa9ad3d .
 
-ns1:3039f069-324e-4072-9043-4977dd4c6a87 a ns1:Right_side,
-        ns1:artwork-component,
+ns2:13d5466a-12b7-45e2-ae22-f83ec3c59ff3 a ns2:Right_sideMiddle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "3039f069-324e-4072-9043-4977dd4c6a87" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns1:identifier "13d5466a-12b7-45e2-ae22-f83ec3c59ff3" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:339e8222-cd53-44b8-9eed-1682cdc4a54e a ns1:Compartment,
-        ns1:artwork-component,
+ns2:55324564-544b-41ad-a7df-3c5fdc0ca0c2 a ns2:Bottom_middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "339e8222-cd53-44b8-9eed-1682cdc4a54e" ;
-    ns2:isPartOf ns1:2408e926-b855-455c-9868-d7a4070ef83e .
+    ns1:identifier "55324564-544b-41ad-a7df-3c5fdc0ca0c2" ;
+    ns1:isPartOf ns2:1daa57c4-7f39-4929-b370-3f4ca12b66d7 .
 
-ns1:43118a5f-5a81-4959-b60c-257c6a5d2913 a ns1:Pinax,
-        ns1:artwork-component,
+ns2:76b48cf8-a88f-4dfd-85fd-1018b014ef60 a ns2:Topmost,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "43118a5f-5a81-4959-b60c-257c6a5d2913" ;
-    ns2:isPartOf ns1:88e6a9a9-953b-4c09-b70e-3f08f6865ef5 .
+    ns1:identifier "76b48cf8-a88f-4dfd-85fd-1018b014ef60" ;
+    ns1:isPartOf ns2:223f3285-b319-467f-9f09-8b0484fb0c2a .
 
-ns1:4bec415e-3dfc-46fc-ae27-a25dac742b66 a ns1:Right_side,
-        ns1:artwork-component,
+ns2:90b6d07a-6153-44bc-8f5b-79d852fa4b22 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "4bec415e-3dfc-46fc-ae27-a25dac742b66" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "90b6d07a-6153-44bc-8f5b-79d852fa4b22" ;
+    ns1:isPartOf ns2:c8ccf2ee-d189-4483-92a6-be1dd7c8bda1 .
 
-ns1:5c95cb42-7e74-4813-9368-1f9d0b628f41 a ns1:Right_sideMiddle,
-        ns1:artwork-component,
+ns2:9ee60ef1-90ea-4f05-a564-d7e5109c9b4a a ns2:Pinax,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "5c95cb42-7e74-4813-9368-1f9d0b628f41" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "9ee60ef1-90ea-4f05-a564-d7e5109c9b4a" ;
+    ns1:isPartOf ns2:96f46cc9-bcc1-494c-8ee7-dcd9731bb457 .
 
-ns1:6147447f-f333-457a-910f-c28cc192aa7f a ns1:Middle,
-        ns1:artwork-component,
+ns2:d252225c-6601-4aeb-a829-71cf7edf8ac9 a ns2:Right_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "6147447f-f333-457a-910f-c28cc192aa7f" ;
-    ns2:isPartOf ns1:82b4edb6-7fe6-4047-a115-8e3bfd480db6 .
+    ns1:identifier "d252225c-6601-4aeb-a829-71cf7edf8ac9" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:65b2f70d-7597-4e43-92ed-a906721f8bd4 a ns1:Bottom_middle,
-        ns1:artwork-component,
+ns2:de2df1ee-245d-4e9e-abfb-db21d9e049d3 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "65b2f70d-7597-4e43-92ed-a906721f8bd4" ;
-    ns2:isPartOf ns1:82b4edb6-7fe6-4047-a115-8e3bfd480db6 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "de2df1ee-245d-4e9e-abfb-db21d9e049d3" ;
+    ns1:isPartOf ns2:e4eecf09-6206-43a8-bb21-0ee4ce33d2a7 .
 
-ns1:96799b4b-7ff0-4c4a-87d6-81710c55d828 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:e18b6e55-ac02-485c-a362-1987b92f6816 a ns2:Middle,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "96799b4b-7ff0-4c4a-87d6-81710c55d828" ;
-    ns2:isPartOf ns1:f7e7552b-017b-4199-9037-56fc0d5fd05c .
+    ns1:identifier "e18b6e55-ac02-485c-a362-1987b92f6816" ;
+    ns1:isPartOf ns2:1daa57c4-7f39-4929-b370-3f4ca12b66d7 .
 
-ns1:fb88a6e9-a7f6-48e3-8f22-ec07fce288e5 a ns1:Topmost,
-        ns1:artwork-component,
+ns2:144b6358-65e7-4ae6-aa6d-7f47b87ccb84 a ns2:Left_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "fb88a6e9-a7f6-48e3-8f22-ec07fce288e5" ;
-    ns2:isPartOf ns1:63eca044-3831-41f0-b201-4f90faa01f41 .
+    ns1:identifier "144b6358-65e7-4ae6-aa6d-7f47b87ccb84" ;
+    ns1:isPartOf ns2:f3a291ab-2b39-47c8-b249-358c417650a6 .
 
-ns1:017420d8-8ede-4e7f-8891-75a1ba3a228f a ns1:Panel,
-        ns1:artwork-component,
+ns2:26b126bf-70a7-4103-9af7-ae36bdb3eb51 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "017420d8-8ede-4e7f-8891-75a1ba3a228f" ;
-    ns2:isPartOf ns1:9e8c8b7e-2aa8-4406-a322-97e40fb778b4 .
+    ns1:identifier "26b126bf-70a7-4103-9af7-ae36bdb3eb51" ;
+    ns1:isPartOf ns2:0ef102df-12d5-4eab-8aaa-dd5a40285b25 .
 
-ns1:08d519ce-b3b2-4a86-a858-2e1cd7ed0552 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:4a2e2501-3362-4dd8-9e6f-8ed4368eecfa a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "08d519ce-b3b2-4a86-a858-2e1cd7ed0552" ;
-    ns2:isPartOf ns1:748cdf15-d750-489c-a940-2d0d2c1d7a26 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "4a2e2501-3362-4dd8-9e6f-8ed4368eecfa" ;
+    ns1:isPartOf ns2:406c6084-0360-4214-9fe4-c9df583e635b .
 
-ns1:18b898ed-ed12-40ce-981e-d6e7ed69d65c a ns1:Left_side,
-        ns1:artwork-component,
+ns2:53473c09-dacf-40e9-ba1d-01230cf4716d a ns2:Left_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "18b898ed-ed12-40ce-981e-d6e7ed69d65c" ;
-    ns2:isPartOf ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 .
+    ns1:identifier "53473c09-dacf-40e9-ba1d-01230cf4716d" ;
+    ns1:isPartOf ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 .
 
-ns1:6829b23e-5766-4610-964f-ae85b17ddab0 a ns1:Left_side,
-        ns1:artwork-component,
+ns2:7e5cf403-2602-4b72-8768-ba2fa7f748f5 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "6829b23e-5766-4610-964f-ae85b17ddab0" ;
-    ns2:isPartOf ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 .
+    ns1:identifier "7e5cf403-2602-4b72-8768-ba2fa7f748f5" ;
+    ns1:isPartOf ns2:9806d183-96e8-4a07-85bb-cd1dc639e4d3 .
 
-ns1:6b8ac78c-67dd-4af2-b59a-e64c1130602b a ns1:Compartment,
-        ns1:artwork-component,
+ns2:b4066aad-38ed-4527-8ecf-a4b4fee27c18 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "6b8ac78c-67dd-4af2-b59a-e64c1130602b" ;
-    ns2:isPartOf ns1:1899c37e-0c48-4b10-b738-188ed02d7b78 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "b4066aad-38ed-4527-8ecf-a4b4fee27c18" ;
+    ns1:isPartOf ns2:f3f071f0-2fcf-4756-89f5-a10717df101d .
 
-ns1:7fe95a0e-94cf-42c6-8e4e-1e3082ee9a5e a ns1:Panel,
-        ns1:artwork-component,
+ns2:ddc72476-e359-4594-b391-d3c063065a14 a ns2:Compartment,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "7fe95a0e-94cf-42c6-8e4e-1e3082ee9a5e" ;
-    ns2:isPartOf ns1:0f372e09-8af0-4b17-ba81-a90fce79cdf3 .
+    ns2:has-color ns2:Black ;
+    ns1:identifier "ddc72476-e359-4594-b391-d3c063065a14" ;
+    ns1:isPartOf ns2:d7f4a7f3-969c-4086-a724-396042d11632 .
 
-ns1:d8f75119-2968-4003-91e4-3d2252581ff7 a ns1:Compartment,
-        ns1:artwork-component,
+ns2:1daa57c4-7f39-4929-b370-3f4ca12b66d7 a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Black ;
-    ns2:identifier "d8f75119-2968-4003-91e4-3d2252581ff7" ;
-    ns2:isPartOf ns1:90a8c776-9a14-4ab9-a5d5-92c9b2f3ad5d .
+    ns1:identifier "1daa57c4-7f39-4929-b370-3f4ca12b66d7" ;
+    ns1:isPartOf ns2:e6ad00d3-ed22-4187-af27-55de57301a8e .
 
-ns1:62bf77f9-7330-4ca3-8d85-25bcdc04201e a ns1:Left_side,
-        ns1:artwork-component,
+ns2:76102429-e048-45c0-a381-f33fa255b5ed a ns2:Right_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "62bf77f9-7330-4ca3-8d85-25bcdc04201e" ;
-    ns2:isPartOf ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c .
+    ns1:identifier "76102429-e048-45c0-a381-f33fa255b5ed" ;
+    ns1:isPartOf ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 .
 
-ns1:756ab1ee-df80-490c-830f-6713fb130d25 a ns1:Right_side,
-        ns1:artwork-component,
+ns2:ARC_005857--artwork a ns2:artwork,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "756ab1ee-df80-490c-830f-6713fb130d25" ;
-    ns2:isPartOf ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c .
+    ns2:created-on-surface-of ns2:ARC_005857 ;
+    ns1:identifier "ARC_005857--artwork" .
 
-ns1:82b4edb6-7fe6-4047-a115-8e3bfd480db6 a ns1:Panel,
-        ns1:artwork-component,
+ns2:a4d64a3f-2d74-4561-852f-fa431cd61310 a ns2:Left_side,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "82b4edb6-7fe6-4047-a115-8e3bfd480db6" ;
-    ns2:isPartOf ns1:def3a561-61e1-482a-a4c5-1e897c1c25b4 .
+    ns1:identifier "a4d64a3f-2d74-4561-852f-fa431cd61310" ;
+    ns1:isPartOf ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 .
 
-ns1:b7f87d5f-caa8-409f-8b94-efcfea99111c a ns1:Stylopinakion,
-        ns1:artwork-component,
+ns2:fefa0807-3cfb-4fd6-9f13-a947135b9495 a ns2:Stylopinakion,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Blue ;
-    ns2:identifier "b7f87d5f-caa8-409f-8b94-efcfea99111c" ;
-    ns2:isPartOf ns1:65558881-8f13-4958-ab69-e1791cf3364f .
+    ns2:has-color ns2:Blue ;
+    ns1:identifier "fefa0807-3cfb-4fd6-9f13-a947135b9495" ;
+    ns1:isPartOf ns2:12988a0a-3339-4f6f-9283-8ef711d7f2fa .
 
-ns1:7c719805-c52f-4d1d-ae04-d28ea7cb9b02 a ns1:Stylopinakion,
-        ns1:artwork-component,
+ns2:1d311563-25f0-4680-9eac-41728fc5159f a ns2:Panel,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Blue ;
-    ns2:identifier "7c719805-c52f-4d1d-ae04-d28ea7cb9b02" ;
-    ns2:isPartOf ns1:28193934-7bbd-4ea1-8d25-5901fe0b5c39 .
+    ns1:identifier "1d311563-25f0-4680-9eac-41728fc5159f" ;
+    ns1:isPartOf ns2:754369aa-372a-408e-a1e1-fec69b087ef7 .
 
-ns1:e94772a8-22e2-4b6c-b795-0adc9afcdbc3 a ns1:Stylopinakion,
-        ns1:artwork-component,
+ns2:80316288-c2be-45bc-ba2f-2de3b3232f97 a ns2:Stylopinakion,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns1:has-color ns1:Blue ;
-    ns2:identifier "e94772a8-22e2-4b6c-b795-0adc9afcdbc3" ;
-    ns2:isPartOf ns1:4f9c0670-c0cc-438e-99b6-c9033ff97c41 .
+    ns2:has-color ns2:Blue ;
+    ns1:identifier "80316288-c2be-45bc-ba2f-2de3b3232f97" ;
+    ns1:isPartOf ns2:3890fdca-c3be-4fa7-b00a-d36ed69214bd .
 
-ns1:edc74052-7f1a-4b9d-899a-994c17ab4091 a ns1:Panel,
-        ns1:artwork-component,
+ns2:f3a291ab-2b39-47c8-b249-358c417650a6 a ns2:Stylopinakion,
+        ns2:artwork-component,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    ns2:identifier "edc74052-7f1a-4b9d-899a-994c17ab4091" ;
-    ns2:isPartOf ns1:ec97cb2a-fece-4a23-afd7-16d58d7630f6 .
+    ns2:has-color ns2:Blue ;
+    ns1:identifier "f3a291ab-2b39-47c8-b249-358c417650a6" ;
+    ns1:isPartOf ns2:a4cc6276-f4fd-4f16-96e9-423d71cac103 .
 
-ns1:bb0165cc-200f-468a-80ad-91f11d5d1099 ns1:has-color ns1:Black .
+ns2:56bfc305-e793-4f9b-b0b3-22aed240beee a ns2:Socle,
+        ns2:artwork-component,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    ns2:has-color ns2:Black ;
+    ns1:identifier "56bfc305-e793-4f9b-b0b3-22aed240beee" ;
+    ns1:isPartOf ns2:ARC_005857--artwork ;
+    ns1:title "Socle" .
+
+ns2:6a0c25a0-dd1b-4600-a998-e2fcaa87648d a ns2:Middle_Zone,
+        ns2:artwork-component,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    ns1:identifier "6a0c25a0-dd1b-4600-a998-e2fcaa87648d" ;
+    ns1:isPartOf ns2:ARC_005857--artwork ;
+    ns1:title "Middle_Zone" .
+
+ns2:0d347394-593c-4142-b235-cc1117f9bfc4 a ns2:Lower_Zone,
+        ns2:artwork-component,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    ns1:identifier "0d347394-593c-4142-b235-cc1117f9bfc4" ;
+    ns1:isPartOf ns2:ARC_005857--artwork ;
+    ns1:title "Lower_Zone" .
+
+ns2:223f3285-b319-467f-9f09-8b0484fb0c2a a ns2:Upper_Zone,
+        ns2:artwork-component,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    ns1:identifier "223f3285-b319-467f-9f09-8b0484fb0c2a" ;
+    ns1:isPartOf ns2:ARC_005857--artwork ;
+    ns1:title "Upper_Zone" .
 
